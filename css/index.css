@@ -1,0 +1,377 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+#barra {
+    width: 100%;
+}  
+
+/* header nav { 
+    
+}
+  */
+
+.prueba {
+    position: absolute;
+    bottom: 1rem;
+    left: 45%;
+    width: 10%;
+    text-align: center;
+}
+.prueba img {
+    /* background-color: black; */
+    height: 4rem;
+    width: 4rem;
+    animation-duration: 1s;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(-25%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+      transform: translateY(0);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    padding: 0.5rem 2rem;
+    transition: 3000;
+    transition-duration: 500ms;
+}
+
+.bg-black{
+    background-color: rgba(17, 17, 17, 0.757); /* Fondo semi-transparente */
+
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+
+
+.boton_navegacion {
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease;
+    font-size: x-large;
+}
+
+.boton_navegacion:hover {
+    color: white;
+}
+
+.dropdown-item {
+    z-index: 1000;
+}
+
+.blanco{background-color:rgb(46, 46, 46);}
+
+#barra {
+    background-color: none;
+}
+
+#barra h1{
+    font-size: x-large;
+    font-weight: 700;
+    margin-top: 3px;
+    
+}
+
+
+
+.nombre{
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease;
+    font-size: x-large;
+    margin:0px;
+    }
+
+.nombre:hover {
+    text-decoration: none;
+    color: white;
+
+}
+
+/* ------------------------------ */
+/* Banner */
+
+.banner {
+    width: 100%;  
+    height: 100vh;
+    z-index: 1;
+    text-align: center;
+    display: flex; /* Usa Flexbox para el diseño */
+    justify-content: center; 
+    color: white;
+    background-image: url('/img/banner-prueba.jpg');
+}
+    
+/* 
+.banner::before {
+    content: '';
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-position-y: -524px;
+    
+    filter: blur(4px); 
+    z-index: -1;
+  } */
+
+.banner div{
+    align-items: center;
+}
+.banner h2 {
+    width: 100%;
+    font-weight: 700;
+}
+p{
+    width: 90%;
+}
+
+
+.suscriptionbox {
+    border: white;
+    border:solid;
+    border-width:medium;
+    border-color: white;
+    border-radius: 10px;
+    height: auto;
+    background-color: grey;   
+    margin-top: 20px;
+}
+.suscriptionbox:hover {
+    background-color:rgb(27, 27, 27); /* Ajusta la opacidad para obtener el nivel de oscurecimiento deseado */
+}
+
+
+
+.recuadro {
+
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 900px;
+    background-color: rgba(0, 0, 0, 0.90); ; /* Color de fondo del div */
+    
+    border: white;
+    border:solid;
+    border-width:5px;
+    border-color: white;
+
+
+    padding: 20px; /* Espacio interno del div */
+    border-radius: 15px; /* Bordes redondeados */
+    margin: auto; /* Centra el div horizontalmente */
+
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
+
+.derecha{
+    display: grid;
+    justify-items: center;
+}
+
+
+.precioanterior{
+    text-decoration: line-through;
+}
+
+.fila_banner{
+   display:inline-flex;
+   justify-content: space-evenly;
+   width: 100%;
+}
+
+
+.diagonal-line{
+    width: 50px;
+    height: 10px;
+    background-color: gold;
+    transform: rotate(45deg);
+}
+
+
+
+.timer {
+    font-size: 2em;
+    border: 1px solid #ddd;
+    border-width:3px;
+    border-radius: 20px;
+    padding: 3px;
+}
+
+
+
+
+
+
+
+
+/* ------------------------------------- */
+/* Estilos para la lista de productos */
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.product-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+.product-image {
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+}
+
+.product-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.product-details {
+    padding: 20px;
+}
+
+.product-title {
+    font-size: 1.25em;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 1.1em;
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+.product-description {
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.buy-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+/* ------------------------------------------------------------------------------- */
+/* Noticias */
+
+.noticias{
+    margin-top: 40px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.45); 
+    background-blend-mode: darken;  
+    color: white;
+}
+
+
+
+
+/* ------------------------------------------------------------------------------- */
+/* FOOTER */
+
+.footer{
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.85); 
+    background-blend-mode: darken;  
+    color: white;
+}
+
+.hero-content {
+    text-align: left; 
+    padding: 2rem;
+    color: white !important;
+
+}
+@keyframes slide-in-left {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.hero-content h2 {
+    animation: slide-in-left 1.2s forwards; /* Aplicación de la animación */
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 3em;
+}
+.hero p {
+    animation: slide-in-left 1.5s forwards; /* Aplicación de la animación */
+
+}
+
+.hero-content .btn {
+    background-color: #d4af37;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.5em;
+    animation: slide-in-left 2s forwards; /* Aplicación de la animación */
+
+}
+
+.hero {
+    background-image: url('/img/banner.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}

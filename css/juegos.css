@@ -1,0 +1,31 @@
+
+.container-fluid {
+    background-color: rgb(46, 46, 46);
+    color: whitesmoke;
+}
+
+.collapse .card-body {
+    background-color: rgb(46, 46, 46);
+    color: whitesmoke;
+    border: none;
+}
+
+img {
+    width: 100%;
+}
+#carouselGame {
+    width: 100%;
+}
+.carousel-item img {
+    width: 100%;
+}
+
+#buy-button {
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 2% 4%;
+}
+
+.game-info {
+    border-bottom: solid grey 2px;
+}

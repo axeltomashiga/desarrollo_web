@@ -1,0 +1,17 @@
+Página de inicio:
+Debe contener cinco secciones o bloques de información (además de la
+navegación del sitio hacia las demás páginas):
+• Una sección debe contener un banner, slider de imágenes o similar, que
+ocupe todo (o casi todo) el ancho visual de la página. Ejemplo: si el cabezal de la
+página (y todo el contenido en general) midiera 1024px de ancho, el banner debe
+medir lo mismo (o casi).
+• Call to Action o llamado a la acción: un bloque imperativo que nos invite a
+realizar una acción determinada: Reservá, Pedí on-line, Participá, Ver productos,
+Comprar, etcétera.
+• Una sección deberá incluir “pastillas de información” (3, 4 o más cards), con
+pequeñas imágenes o íconos acompañadas por texto a su lado o debajo (o una
+imagen con texto oculto que se visualiza con el hover). Pueden llevarnos a otras
+páginas del sitio o abrir modal boxes con información extra.
+• Galería de Productos, o imágenes: todas ellas con texto en forma de epígrafe
+o titulares con desarrollo de información extra.
+• Testimoniales de clientes, proveedores, sponsors. Ideal incluir un carrusel.
