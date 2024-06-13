@@ -4,7 +4,7 @@ $(document).ready(() => {
 
     $(window).on("scroll", () => {
         var newScroll = $(window).scrollTop();
-        console.log(newScroll);
+
         
         var barra = $('header');
         var banner = $('.banner');
@@ -20,7 +20,7 @@ $(document).ready(() => {
 
         // Calcula la nueva posición
         var newPos = -523 + newScroll/15;
-        console.log(newScroll);
+
         
         // Actualiza la regla CSS para cambiar background-position-y
         style.html(`.banner::before { background-position-y: ${newPos}px; }`);

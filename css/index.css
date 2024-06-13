@@ -117,7 +117,7 @@ body {
     display: flex; /* Usa Flexbox para el diseño */
     justify-content: center; 
     color: white;
-    background-image: url('/img/banner-prueba.jpg');
+    background-image: url('../img/banner-prueba.jpg');
 }
     
 /* 
@@ -228,15 +228,8 @@ p{
 
 
 
-
 /* ------------------------------------- */
 /* Estilos para la lista de productos */
-.product-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin-top: 20px;
-}
 
 .product-card {
     background: #fff;
@@ -255,14 +248,56 @@ p{
 
 .product-image {
     border-bottom: 1px solid #ddd;
-    padding: 20px;
+    position: relative;
+    overflow:hidden;
 }
 
 .product-image img {
     max-width: 100%;
+    padding: 20px;
     height: auto;
     border-radius: 5px 5px 0 0;
+    position: relative;
 }
+
+
+.product-box-image{
+    overflow:hidden;
+}
+.product-box-image::before{
+    transform: translateY(0%);
+}
+
+.product-box-image::after {
+    content: "Ver mas";
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); 
+    inset: 0;
+    display: grid;
+    place-items: center; 
+    position: absolute;
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0;   
+    margin: 20px;
+    transform: translateY(120%);
+
+
+    
+}
+
+
+
+.product-box-image:hover::after{
+    transform: translateY(0%);
+    cursor: pointer;
+}
+
+
+
+
+
 
 .product-details {
     padding: 20px;
@@ -298,6 +333,8 @@ p{
 .buy-button:hover {
     background-color: #0056b3;
 }
+
+
 
 
 
@@ -367,7 +404,7 @@ p{
 }
 
 .hero {
-    background-image: url('/img/banner.jpeg');
+    background-image: url('../img/banner.jpeg');
     background-size: cover;
     background-position: center;
     height: 100vh;
