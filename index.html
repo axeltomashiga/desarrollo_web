@@ -15,27 +15,62 @@
 </head>
 <body>
     <header class="container-fluid">
-        <div class="col-12 col-sm-3 p-md-1 nombre" ><h1>Aida Games</h1></div>
+        <div><h1>Aida Games</h1></div>
         <nav class="row g-0 align-items-center">  
-                <div id="barra" class="row g-0 justify-content-sm-end text-center dropdown">
-                    <a class="col p-md-1 boton_navegacion d-none d-sm-block" href="#">Inicio</a>
-                    <a class="col p-md-1 boton_navegacion d-none d-sm-block   dropdown-toggle"  role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
-                    <ul class="dropdown-menu w-25" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something</a></li>
-                        <li><a class="dropdown-item" href="#">Something</a></li>
-                        <li><a class="dropdown-item" href="#">Something</a></li>
-                    </ul>
-                    <a class="col p-md-1 boton_navegacion d-none d-sm-block" href="#">Promociones</a>
-                    <a class="col p-md-1 boton_navegacion d-none d-sm-block" href="#">Soporte</a>
-                    <a class="col p-md-1 boton_navegacion d-none d-sm-block" href="#noticias">Noticias</a>
-                    <!-- <div class="col p-md-1  d-none d-sm-block blanco"></div> -->
+            <a class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block" href="#">Inicio</a>
+            <a class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block   dropdown-toggle"  role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
+            <ul class="dropdown-menu w-25" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something</a></li>
+                <li><a class="dropdown-item" href="#">Something</a></li>
+                <li><a class="dropdown-item" href="#">Something</a></li>
+            </ul>
+            <a class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block" href="#">Promociones</a>
+            <a class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block" href="#">Soporte</a>
+            <a class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block" href="#noticias">Noticias</a> 
+            <div class="col p-md-1 me-xl-4 d-block d-xl-none">
+                <div class="container-fluid navbar navbar-dark">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        </ul>
+                        <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                        </form>
+                    </div>
+                    </div>
                 </div>
-            </div>    
+            </div>
         </nav>
     </header>
-
 
     <main>
         <div class="hero">
@@ -58,33 +93,36 @@
     <!-- banner -->
     <section class="banner" id="banner">
         <div class="recuadro">
-            <div>
+            <div class="izquierda">
                 <h2>Descubre las Últimas Promociones y Estrenos en el Mundo de los Videojuegos</h2>
             </div>
             <div class="derecha">
-                
+
                 <p>Disfruta de acceso ilimitado a los últimos videojuegos y las mejores ofertas del mercado. Con nuestras suscripciones, tendrás la posibilidad de explorar nuevos mundos y disfrutar de una comunidad gamer activa.</p>
                 <!-- <p>¡No te pierdas nuestras promociones exclusivas!</p> -->
-                <div>Ofertas disponibles por:
+                
+                    <p>
+                        Ofertas disponibles por:
+                    </p>
                     <div class="timer" id="timer">
-                        24hs 00mins 00secs
-                    </div>
+                            24hs 00mins 00secs
                     </div>
                 
+                
                 <div class="fila_banner">
-                    <div class="col-3 p-md-3 col-xs-12  suscriptionbox">
+                    <div class="suscriptionbox bronze">
                         <div>1 Mes</div>
                         <img src="" alt="">
                         <div class="precioanterior">$100</div>
                         <div>$80</div>
                     </div>
-                    <div class="col-3 p-md-3  suscriptionbox">
+                    <div class="suscriptionbox silver">
                         <div>6 Meses</div>
                         <img src="" alt="">
                         <div class="precioanterior">$500</div>
                         <div>400</div>
                     </div> 
-                    <div class="col-3 p-md-3  suscriptionbox">
+                    <div class="suscriptionbox gold">
                         <div>12 Meses</div>
                         <!-- <div class="diagonal-line"></div> -->
                         <img src="" alt="">
@@ -92,10 +130,8 @@
                         <div>700</div>
                     </div>
                 </div>
-            </div>
-        </div>
-        
-            
+            </div>    
+        </div>        
     </section>
     <!-- Call to Action -->
     <section></section>
