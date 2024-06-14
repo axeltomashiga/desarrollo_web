@@ -210,7 +210,9 @@ body {
     flex-direction: column;
     width: 30%;
 }
-
+.suscriptionbox:hover {
+    cursor:pointer;
+}
 .bronze{
     background-color: rgb(197, 110, 40);   
 }
@@ -255,6 +257,10 @@ body {
 /* ------------------------------------- */
 /* Estilos para la lista de productos */
 
+
+/* ------------------------------------- */
+/* Estilos para la lista de productos */
+
 .product-card {
     background: #fff;
     border: 1px solid #ddd;
@@ -264,6 +270,7 @@ body {
     max-width: 300px;
     text-align: center;
     transition: transform 0.2s;
+    height: 93%;
 }
 
 .product-card:hover {
@@ -344,24 +351,35 @@ body {
     margin-bottom: 15px;
 }
 
-.buy-button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    
+    bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;  /* Ajusta el tamaño del área de clic según tus necesidades */
+    height: 20px; /* Ajusta el tamaño del área de clic según tus necesidades */
+  
 }
 
-.buy-button:hover {
-    background-color: #0056b3;
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    position:absolute;
+    top: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo semitransparente */
+    border: solid 5px;
+    border-color: black;
+
+    cursor: pointer; /* Cambia el cursor al pasar sobre los controles */
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
 }
-
-
-
-
-
 
 /* ------------------------------------------------------------------------------- */
 /* Noticias */
@@ -428,7 +446,7 @@ body {
 }
 
 .hero {
-    background-image: url('../img/banner_2.jpeg');
+    background-image: url('../img/banner.jpeg');
     background-size: cover;
     background-position: center;
     height: 100vh;
