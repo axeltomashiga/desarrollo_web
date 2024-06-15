@@ -1,0 +1,29 @@
+header {
+    position: sticky;
+    background-color: black;
+}
+
+.recuadro {
+    height: auto;
+    border: none;
+}
+
+.banner .recuadro .faq-qa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.banner .recuadro .faq-qa p {
+    margin: 2% 0;
+    width: 50%;
+}
+
+@media (min-width:546px){
+    .banner .recuadro .faq-qa {
+        display: block;
+        align-items: center;
+    }
+    .banner .recuadro .faq-qa p {
+        width: 100%;
+    }
+}

@@ -3,6 +3,9 @@ body {
     color: whitesmoke;
 }
 
+header {
+    position: sticky;
+}
 
 .container-fluid {
     background-color: rgb(46, 46, 46);
@@ -39,6 +42,7 @@ aside img {
 }
 
 .game-info {
-    
+    display: flex;
+    justify-content: center;
     border-bottom: solid grey 2px;
 }
