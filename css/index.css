@@ -1,6 +1,8 @@
 body {
     font-family: "Poppins", sans-serif;
     color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -15,13 +17,59 @@ body {
     background-color:rgb(46, 46, 46);
 }
 
+/* ----------------------------------------- */
+/* hero */
 
+.hero-content {
+    width: 100%;
+    text-align: left; 
+    padding: 2rem;
+    color: white !important;
+    background-color: rgba(0, 0, 0, 0.5);
+}
 
+@keyframes slide-in-left {
+    0% {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
 
+.hero-content h2 {
+    animation: slide-in-left 1.2s forwards; /* Aplicación de la animación */
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 3em;
+}
 
+.hero p {
+    animation: slide-in-left 1.5s forwards; /* Aplicación de la animación */
+}
 
+.hero-content .btn {
+    background-color: #d4af37;
+    padding: 20px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 1.5em;
+    animation: slide-in-left 2s forwards; /* Aplicación de la animación */
+}
 
-
+.hero {
+    background-image: url('../img/fondo.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
 
 /* ------------------------------ */
 /* Banner */
@@ -31,6 +79,7 @@ body {
     height: 100%;
     position: absolute;
     z-index: 0;
+    object-fit: cover;
 }
 
 .banner {
@@ -50,7 +99,6 @@ body {
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 80%;
     background-color: rgba(0, 0, 0, 0.95); ; /* Color de fondo del div */
     border: white solid 5px;
     padding: 20px; /* Espacio interno del div */
@@ -310,54 +358,3 @@ body {
     color: white;
 }
 
-.hero-content {
-    width: 100%;
-    text-align: left; 
-    padding: 2rem;
-    color: white !important;
-    background-color: rgba(0, 0, 0, 0.5);
-
-}
-@keyframes slide-in-left {
-    0% {
-        transform: translateX(-100%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateX(0);
-        opacity: 1;
-    }
-}
-
-.hero-content h2 {
-    animation: slide-in-left 1.2s forwards; /* Aplicación de la animación */
-    font-family: 'Poppins';
-    font-weight: bold;
-    font-size: 3em;
-}
-.hero p {
-    animation: slide-in-left 1.5s forwards; /* Aplicación de la animación */
-
-}
-
-.hero-content .btn {
-    background-color: #d4af37;
-    padding: 20px 40px;
-    border-radius: 10px;
-    text-decoration: none;
-    color: #000;
-    font-weight: bold;
-    font-size: 1.5em;
-    animation: slide-in-left 2s forwards; /* Aplicación de la animación */
-
-}
-
-.hero {
-    background-image: url('../img/fondo.jpeg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-    display: flex;
-    justify-content: left;
-    align-items: center;
-}
