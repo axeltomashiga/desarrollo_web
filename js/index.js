@@ -1,4 +1,6 @@
 $(document).ready(() => {
+
+    console.log('Hola, mundo!');
     // Define y añade el elemento <style> al <head>
     var style = $('<style></style>').appendTo('head');
 
@@ -10,10 +12,10 @@ $(document).ready(() => {
         var banner = $('.banner');
 
         if (newScroll >= 52) {
-            barra.addClass('bg-black');
+           
             // barra.addClass('bg-black')
         } else {
-            barra.removeClass('bg-black');
+           
             // barra.removeClass('bg-black')
 
         }
@@ -67,21 +69,30 @@ window.onload = function () {
 
 
 
+window.addEventListener('load', function() {
+    const video = document.getElementById('myVideo');
+    video.volume = 0.2; 
+    video.muted = false;
+   
+  });
 
 
 
-// $(document).ready(()=>{
-//     var blanco = $('#blanco').click(cambiarColor);
-
-//     // Función para cambiar el color de fondo de la caja a rojo
-//     function cambiarColor() {
-//         blanco.css('backgroundColor','green');
-//     }
-// })
 
 
 
-// var blanco = $('#barra').click(cambiarColor);
+
+  document.getElementById('chevron').addEventListener('click', function() {
+    const video = document.getElementById('myVideo');
+    video.play().catch(error => {
+      console.log('Error al intentar reproducir el video:', error);
+    });
+  });
 
 
+
+  document.getElementById('myVideo').addEventListener('ended', function() {
+    var recuadrobanner = $('.recuadro');
+    recuadrobanner.css('visibility', 'visible');
+  });
 

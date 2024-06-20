@@ -1,0 +1,99 @@
+#barra {
+    width: 100%;
+}  
+
+.prueba {
+    position: absolute;
+    bottom: 1rem;
+    left: 45%;
+    width: 10%;
+    text-align: center;
+}
+.prueba img {
+    /* background-color: black; */
+    height: 4rem;
+    width: 4rem;
+    animation-duration: 1s;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(-25%);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    50% {
+      transform: translateY(0);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+
+  header {
+    position: fixed;
+    top: 0;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    padding: 0.5rem 2rem;
+    transition: 3000;
+    transition-duration: 500ms;
+    color: white;
+}
+
+.bg-black{
+    background-color: rgba(17, 17, 17, 0.757); /* Fondo semi-transparente */
+
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+
+
+.boton_navegacion {
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease;
+    font-size: x-large;
+}
+
+.boton_navegacion:hover {
+    color: white;
+}
+
+.dropdown-item {
+    z-index: 1000;
+}
+
+
+
+#barra {
+    background-color: none;
+}
+
+#barra h1{
+    font-size: x-large;
+    font-weight: 700;
+    margin-top: 3px;
+    
+}
+
+
+
+.nombre{
+    text-decoration: none;
+    color: white;
+    transition: background-color 0.3s ease;
+    font-size: x-large;
+    margin:0px;
+    }
+
+.nombre:hover {
+    text-decoration: none;
+    color: white;
+
+}

@@ -1,209 +1,144 @@
 body {
     font-family: "Poppins", sans-serif;
-}
-
-#barra {
-    width: 100%;
-}  
-
-/* header nav { 
-    
-}
-  */
-
-.prueba {
-    position: absolute;
-    bottom: 1rem;
-    left: 45%;
-    width: 10%;
-    text-align: center;
-}
-.prueba img {
-    /* background-color: black; */
-    height: 4rem;
-    width: 4rem;
-    animation-duration: 1s;
-    animation-name: bounce;
-    animation-iteration-count: infinite;
-}
-
-@keyframes bounce {
-    0%, 100% {
-      transform: translateY(-25%);
-      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
-    }
-    50% {
-      transform: translateY(0);
-      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
-    }
-  }
-
-  header {
-    position: fixed;
-    top: 0;
-    width: 90%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 10;
-    padding: 0.5rem 2rem;
-    transition: 3000;
-    transition-duration: 500ms;
-}
-
-.bg-black{
-    background-color: rgba(17, 17, 17, 0.757); /* Fondo semi-transparente */
-
-}
-
-.dropdown-toggle::after {
-    display: none !important;
-}
-
-
-
-.boton_navegacion {
-    text-decoration: none;
-    color: white;
-    transition: background-color 0.3s ease;
-    font-size: x-large;
-}
-
-.boton_navegacion:hover {
     color: white;
 }
 
-.dropdown-item {
-    z-index: 1000;
+
+
+/* ------------------  esto es del header? */
+/* offcanvas */
+.offcanvas-header {
+    background-color:rgb(46, 46, 46);
 }
 
-.blanco{background-color:rgb(46, 46, 46);}
-
-#barra {
-    background-color: none;
-}
-
-#barra h1{
-    font-size: x-large;
-    font-weight: 700;
-    margin-top: 3px;
-    
+.offcanvas-body {
+    background-color:rgb(46, 46, 46);
 }
 
 
 
-.nombre{
-    text-decoration: none;
-    color: white;
-    transition: background-color 0.3s ease;
-    font-size: x-large;
-    margin:0px;
-    }
 
-.nombre:hover {
-    text-decoration: none;
-    color: white;
 
-}
+
+
+
 
 /* ------------------------------ */
 /* Banner */
+
+.mivideo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+}
 
 .banner {
     width: 100%;  
     height: 100vh;
     z-index: 1;
     text-align: center;
-    display: flex; /* Usa Flexbox para el diseño */
-    justify-content: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
-    background-image: url('../img/banner-prueba.jpg');
+    background-color: black;
 }
-    
-/* 
-.banner::before {
-    content: '';
-    position:fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('../img/fondo.jpg');
-    background-size: cover;
-    background-position-y: -524px;
-    
-    filter: blur(4px); 
-    z-index: -1;
-  } */
 
-.banner div{
+
+.recuadro {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.95); ; /* Color de fondo del div */
+    border: white solid 5px;
+    padding: 20px; /* Espacio interno del div */
+    border-radius: 15px; /* Bordes redondeados */
+    align-items: center;
+    font-size: 2vw;
+    justify-content: space-around;
+    z-index: 1;
+    visibility: hidden;
+}
+
+.recuadro h2 {
+    font-size: 3vw;
+}
+
+.izquierda {
+    width: 90%;
+    display: flex;
     align-items: center;
 }
-.banner h2 {
-    width: 100%;
-    font-weight: 700;
-}
-p{
+
+.derecha {
+    display: flex;
+    flex-direction: column;
     width: 90%;
+    justify-content: space-around;
+}
+
+@media (min-width: 718px) {
+    .recuadro{
+        flex-direction: row;
+    }
+    .izquierda {
+        width: 30%;
+        margin:2%;
+    }
+    .derecha {
+        width: 70%;
+        margin:2%;
+    }
+}
+
+@media (min-width: 1500px) {
+    .recuadro{
+        flex-direction: row;
+        font-size: xx-large;
+    }
+}
+
+.fila_banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 5%;
 }
 
 
 .suscriptionbox {
-    border: white;
-    border:solid;
-    border-width:medium;
-    border-color: white;
+    border: white solid medium;
     border-radius: 10px;
-    height: auto;
     background-color: grey;   
-    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
 }
+.suscriptionbox:hover {
+    cursor:pointer;
+}
+.bronze{
+    background-color: rgb(197, 110, 40);   
+}
+
+.silver{
+    background-color: silver;   
+}
+
+.gold{
+    background-color: rgba(255, 217, 0, 0.658);   
+}
+
+
 .suscriptionbox:hover {
     background-color:rgb(27, 27, 27); /* Ajusta la opacidad para obtener el nivel de oscurecimiento deseado */
 }
 
-
-
-.recuadro {
-
-    display: flex;
-    flex-direction: row;
-    height: 400px;
-    width: 900px;
-    background-color: rgba(0, 0, 0, 0.90); ; /* Color de fondo del div */
-    
-    border: white;
-    border:solid;
-    border-width:5px;
-    border-color: white;
-
-
-    padding: 20px; /* Espacio interno del div */
-    border-radius: 15px; /* Bordes redondeados */
-    margin: auto; /* Centra el div horizontalmente */
-
-    justify-self: center;
-    align-self: center;
-    text-align: center;
-}
-
-
-.derecha{
-    display: grid;
-    justify-items: center;
-}
-
-
 .precioanterior{
     text-decoration: line-through;
 }
-
-.fila_banner{
-   display:inline-flex;
-   justify-content: space-evenly;
-   width: 100%;
-}
-
 
 .diagonal-line{
     width: 50px;
@@ -212,20 +147,21 @@ p{
     transform: rotate(45deg);
 }
 
-
-
 .timer {
-    font-size: 2em;
-    border: 1px solid #ddd;
-    border-width:3px;
+    border: 3px solid #ddd;
     border-radius: 20px;
-    padding: 3px;
+    padding: 1%;
+    margin: 0% 15%;
 }
 
+@media (min-width: 576px) {
+    .timer{
+        font-size: 20px;
+    }
+}
 
-
-
-
+/* ------------------------------------- */
+/* Estilos para la lista de productos */
 
 
 /* ------------------------------------- */
@@ -240,6 +176,7 @@ p{
     max-width: 300px;
     text-align: center;
     transition: transform 0.2s;
+    height: 100%;
 }
 
 .product-card:hover {
@@ -320,32 +257,42 @@ p{
     margin-bottom: 15px;
 }
 
-.buy-button {
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    
+    bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;  /* Ajusta el tamaño del área de clic según tus necesidades */
+    height: 20px; /* Ajusta el tamaño del área de clic según tus necesidades */
+  
 }
 
-.buy-button:hover {
-    background-color: #0056b3;
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    position:absolute;
+    top: 15em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo semitransparente */
+    border: solid 5px;
+    border-color: black;
+
+    cursor: pointer; /* Cambia el cursor al pasar sobre los controles */
+    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
 }
-
-
-
-
-
 
 /* ------------------------------------------------------------------------------- */
 /* Noticias */
 
 .noticias{
-    margin-top: 40px;
-    height: 80px;
-    background-color: rgba(255, 255, 255, 0.45); 
+
+    background-color: blue; 
     background-blend-mode: darken;  
     color: white;
 }
@@ -364,9 +311,11 @@ p{
 }
 
 .hero-content {
+    width: 100%;
     text-align: left; 
     padding: 2rem;
     color: white !important;
+    background-color: rgba(0, 0, 0, 0.5);
 
 }
 @keyframes slide-in-left {
@@ -404,7 +353,7 @@ p{
 }
 
 .hero {
-    background-image: url('../img/banner.jpeg');
+    background-image: url('../img/fondo.jpeg');
     background-size: cover;
     background-position: center;
     height: 100vh;
