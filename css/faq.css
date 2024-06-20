@@ -3,27 +3,41 @@ header {
     background-color: black;
 }
 
-.recuadro {
-    height: auto;
-    border: none;
+.banner {
+    height: "";
 }
 
-.banner .recuadro .faq-qa {
+.recuadro-2 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: rgba(0, 0, 0,0.75);
+    border: whitesmoke solid 2px;
+    border-radius: 17px;
+    height: 80%;
+}
+
+.banner .recuadro-2 .faq-qa {
     display: flex;
     flex-direction: row;
     align-items: center;
+    border-bottom: whitesmoke solid 2px;
+    border-radius: 14px;
+    width: 100%;
+    padding: 2%;
+    font-size: 0.75rem;
 }
-.banner .recuadro .faq-qa p {
+.banner .recuadro-2 .faq-qa p {
     margin: 2% 0;
     width: 50%;
 }
 
 @media (min-width:546px){
-    .banner .recuadro .faq-qa {
+    .banner .recuadro-2 .faq-qa {
         display: block;
         align-items: center;
     }
-    .banner .recuadro .faq-qa p {
+    .banner .recuadro-2 .faq-qa p {
         width: 100%;
     }
 }
