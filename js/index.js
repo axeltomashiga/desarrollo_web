@@ -1,32 +1,21 @@
 $(document).ready(() => {
 
     console.log('Hola, mundo!');
-    // Define y añade el elemento <style> al <head>
-    var style = $('<style></style>').appendTo('head');
 
     $(window).on("scroll", () => {
         var newScroll = $(window).scrollTop();
 
         
-        var barra = $('header');
-        var banner = $('.banner');
 
-        if (newScroll >= 52) {
-           
-            // barra.addClass('bg-black')
-        } else {
-           
-            // barra.removeClass('bg-black')
-
-        }
-
-        // Calcula la nueva posición
-        var newPos = -523 + newScroll/15;
-
-        
-        // Actualiza la regla CSS para cambiar background-position-y
-        style.html(`.banner::before { background-position-y: ${newPos}px; }`);
-    });
+        if (newScroll >= 200) {
+            console.log("intento reproducir video")
+            const video = document.getElementById('myVideo');
+            video.play().catch(error => {
+              console.log('Error al intentar reproducir el video:', error);
+            });
+            
+        } else {}
+        });
 });
 
 
@@ -91,8 +80,28 @@ window.addEventListener('load', function() {
 
 
 
+
+  document.getElementById('mostrarsubscripciones').addEventListener('click', function() {
+    var mostrarsubscripciones=  $('#mostrarsubscripciones');
+    var recuadrobanner = $('.recuadro');
+    if (recuadrobanner.css('visibility') === 'visible') {
+      recuadrobanner.css('visibility', 'hidden');
+      mostrarsubscripciones.text("Subscripciones ▲");
+    } else {
+      recuadrobanner.css('visibility', 'visible');
+      mostrarsubscripciones.text("Subscripciones ▼");
+  }
+  });
+
+
+
+
+
   document.getElementById('myVideo').addEventListener('ended', function() {
     var recuadrobanner = $('.recuadro');
     recuadrobanner.css('visibility', 'visible');
   });
+
+
+
 

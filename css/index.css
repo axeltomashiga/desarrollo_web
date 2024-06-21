@@ -1,8 +1,6 @@
 body {
     font-family: "Poppins", sans-serif;
     color: white;
-    display: flex;
-    flex-direction: column;
 }
 
 
@@ -92,6 +90,7 @@ body {
     align-items: center;
     color: white;
     background-color: black;
+    flex-direction:column;
 }
 
 
@@ -99,7 +98,7 @@ body {
     display: flex;
     flex-direction: column;
     width: 90%;
-    background-color: rgba(0, 0, 0, 0.95); ; /* Color de fondo del div */
+    background-color: rgba(0, 0, 0, 0.8); ; /* Color de fondo del div */
     border: white solid 5px;
     padding: 20px; /* Espacio interno del div */
     border-radius: 15px; /* Bordes redondeados */
@@ -208,132 +207,30 @@ body {
     }
 }
 
-/* ------------------------------------- */
-/* Estilos para la lista de productos */
 
 
-/* ------------------------------------- */
-/* Estilos para la lista de productos */
-
-.product-card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin: 10px;
-    max-width: 300px;
-    text-align: center;
-    transition: transform 0.2s;
-    height: 100%;
-}
-
-.product-card:hover {
-    transform: scale(1.05);
-}
-
-.product-image {
-    border-bottom: 1px solid #ddd;
-    position: relative;
-    overflow:hidden;
-}
-
-.product-image img {
-    max-width: 100%;
-    padding: 20px;
-    height: auto;
-    border-radius: 5px 5px 0 0;
-    position: relative;
-}
 
 
-.product-box-image{
-    overflow:hidden;
-}
-.product-box-image::before{
-    transform: translateY(0%);
-}
-
-.product-box-image::after {
-    content: "Ver mas";
+.mostrarsubscripciones{
+    display: inline;
+    z-index: 1;
+    height: 10%;
+    border-radius: 80px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5); 
-    inset: 0;
-    display: grid;
-    place-items: center; 
-    position: absolute;
-    top: 0; 
-    left: 0; 
-    right: 0; 
-    bottom: 0;   
-    margin: 20px;
-    transform: translateY(120%);
-
-
-    
+    border: solid white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+    font-size: large;
+    font-weight:700;
 }
 
-
-
-.product-box-image:hover::after{
-    transform: translateY(0%);
-    cursor: pointer;
+.mostrarsubscripciones:hover{
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
-
-
-
-
-
-.product-details {
-    padding: 20px;
-}
-
-.product-title {
-    font-size: 1.25em;
-    margin-bottom: 10px;
-}
-
-.product-price {
-    font-size: 1.1em;
-    color: #28a745;
-    margin-bottom: 15px;
-}
-
-.product-description {
-    font-size: 0.9em;
-    color: #666;
-    margin-bottom: 15px;
-}
-
-
-
-.carousel-control-prev,
-.carousel-control-next {
-    
-    bottom: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 20px;  /* Ajusta el tamaño del área de clic según tus necesidades */
-    height: 20px; /* Ajusta el tamaño del área de clic según tus necesidades */
-  
-}
-
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    position:absolute;
-    top: 15em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(0, 0, 0, 0.5); /* Color de fondo semitransparente */
-    border: solid 5px;
-    border-color: black;
-
-    cursor: pointer; /* Cambia el cursor al pasar sobre los controles */
-    transition: background-color 0.3s ease; /* Transición suave para el color de fondo */
-}
 
 /* ------------------------------------------------------------------------------- */
 /* Noticias */
