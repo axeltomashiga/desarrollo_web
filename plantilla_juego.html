@@ -15,7 +15,7 @@
     </header>
 
     <!-- juego -->
-    <div id="juego" class="container-fluid">
+    <div id="cuerpo" class="container-fluid">
         <div class="row">
             <section class="col-12 col-sm-8 p-2 m-0">
                 <div id="carouselGame" class="carousel slide" data-bs-ride="carousel">
@@ -25,14 +25,14 @@
                         <button type="button" data-bs-target="#carouselGame" data-bs-slide-to="2" aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <img src="img/cyberpunk-2077-banner.jpg" class="d-block w-100" alt="Imagen 1">
+                        <div id="foto1" class="carousel-item active">
+                
                         </div>
-                        <div class="carousel-item">
-                            <img src="img/cyberpunk_2077_gif.gif" class="d-block w-100" alt="Imagen 2">
+                        <div id="foto2" class="carousel-item">
+                            
                         </div>
-                        <div class="carousel-item">
-                            <img src="img/cyberpunk-2077-banner.jpg" class="d-block w-100" alt="Imagen 3">
+                        <div id="foto3" class="carousel-item">
+                            
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselGame" data-bs-slide="prev">
@@ -60,7 +60,7 @@
                         <h2>
                             Cyberpunk 2077
                         </h2>
-                        <p>
+                        <p id="descripcion_corto">
                             Cyberpunk 2077 es un RPG de aventura y acción de mundo abierto ambientado en la megalópolis de Night City, donde te pondrás en la piel de un mercenario o una mercenaria ciberpunk y vivirás su lucha a vida o muerte por la supervivencia. Mejorado y con contenido nuevo adicional gratuito. Personaliza tu personaje y tu estilo de juego a medida que aceptas trabajos, te labras una reputación y desbloqueas mejoras. Las relaciones que forjes y las decisiones que tomes darán forma al mundo que te rodea. Aquí nacen las leyendas. ¿Cuál será la tuya?
                         </p>
                         <p class="d-inline-flex gap-1">
@@ -69,7 +69,7 @@
                             </button>
                           </p>
                           <div class="collapse" id="collapseExample">
-                            <div class="card card-body">
+                            <div id="descripcion_larga" class="card card-body">
                                 SUMÉRGETE DE LLENO CON LA ACTUALIZACIÓN 2.1
                                 ¡Night City parece más viva que nunca gracias a la actualización gratuita 2.1! Viaja con una red de metro de la NCART totalmente funcional, escucha música mientras exploras la ciudad con tu Radioport, queda con los churris en el apartamento de V, compite en carreras rejugables, conduce nuevos vehículos, disfruta de las mejoras en el manejo y el combate en moto, descubre secretos ocultos y mucho mucho más.
                                 CREA TU PROPIO CIBERPUNK
@@ -86,8 +86,8 @@
                     </div>
                 </div>
             </section>
-            <aside class="col-12 col-sm-4 p-2 m-0 text-center">
-                <img src="img/portada-cyberpunk.jpg" alt="portada cyberpunk">
+            <aside id="foto_aside" class="col-12 col-sm-4 p-2 m-0 text-center">
+                
                 <p>
                     50 US$
                 </p>
@@ -110,7 +110,8 @@
     
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>    <!-- Bootstrap Icons -->
-    <script src="js/index.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/juego.js"></script>
     <script src="js/header.js"></script>
     
 </body>
