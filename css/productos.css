@@ -8,7 +8,6 @@ body {
 }
 
 
-
 /* ------------------ */
 /* offcanvas */
 .offcanvas-header {
@@ -210,10 +209,7 @@ h3::after{
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
 }
-/* .product-card:hover {
 
-    transform: rotateY(180deg);
-} */
 
 
 .product-card.show-back  {

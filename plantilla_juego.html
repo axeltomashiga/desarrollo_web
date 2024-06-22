@@ -12,65 +12,10 @@
 </head>
 <body>
     <header class="container-fluid bg-black">
-        <div><h1>Aida Games</h1></div>
-        <nav class="row g-0 align-items-center">  
-            <a class="col p-md-1 me-xl-4 boton_navegacion d-fnone d-xl-block" href="#">Inicio</a>
-            <a class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block   dropdown-toggle"  role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
-            <ul class="dropdown-menu w-25" aria-labelledby="dropdownMenuLink">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something</a></li>
-                <li><a class="dropdown-item" href="#">Something</a></li>
-                <li><a class="dropdown-item" href="#">Something</a></li>
-            </ul>
-            <a class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block" href="productos.html">Promociones</a>
-            <a class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block" href="#">Soporte</a>
-            <a class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block" href="#noticias">Noticias</a> 
-            <div class="col p-md-1 me-xl-4 d-block d-xl-none">
-                <div class="container-fluid navbar navbar-dark">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-                    <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Menu</h5>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                    </div>
-                    <div class="offcanvas-body">
-                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Link</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                            </a>
-                            <ul class="dropdown-menu dropdown-menu-dark">
-                            <li><a class="dropdown-item" href="">Action</a></li>
-                            <li><a class="dropdown-item" href="productos.html">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        </ul>
-                        <form class="d-flex mt-3" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-success" type="submit">Search</button>
-                        </form>
-                    </div>
-                    </div>
-                </div>
-            </div>
-        </nav>
     </header>
 
     <!-- juego -->
-    <div class="container-fluid">
+    <div id="juego" class="container-fluid">
         <div class="row">
             <section class="col-12 col-sm-8 p-2 m-0">
                 <div id="carouselGame" class="carousel slide" data-bs-ride="carousel">
@@ -166,6 +111,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>    <!-- Bootstrap Icons -->
     <script src="js/index.js"></script>
+    <script src="js/header.js"></script>
     
 </body>
 </html>

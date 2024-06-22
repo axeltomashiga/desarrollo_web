@@ -66,6 +66,9 @@ $(document).ready(function() {
         ['Nuketown', 'Una serie de juegos de disparos en primera persona, conocida por sus grandes mapas, vehículos y combates épicos.', 'nuketown.jpg', '$19.99']
     ];
 
+	let listadehorror = [
+        ['Silent Hill', 'Añadir descripcion', 'silenthill.jpg', '$19.99']
+       ];
 
 
 
@@ -74,7 +77,7 @@ $(document).ready(function() {
     initializeCarousel('accion', listadeaccion);
     initializeCarousel('deporte', listadedeportes);
     initializeCarousel('disparos', listadedisparos);
-
+	initializeCarousel('horror', listadehorror);
 
 
     $(".owl-carousel").owlCarousel({
@@ -374,3 +377,57 @@ $(document).ready(function() {
 		});
 	}
 })(jQuery);
+
+
+
+
+
+
+
+
+
+
+
+
+// Buscar
+document.addEventListener("DOMContentLoaded", function() {
+    const searchInput = document.getElementById('search-input');
+    const placeholderText = "Buscar...";
+
+    function typeWriter(text, i, callback) {
+        if (i < text.length) {
+            searchInput.placeholder = text.substring(0, i + 1);
+            setTimeout(function() {
+                typeWriter(text, i + 1, callback);
+            }, 240);
+        } else if (typeof callback == 'function') {
+            setTimeout(callback, 700);
+        }
+    }
+
+
+    function startTyping() {
+        typeWriter(placeholderText, 0, function() {
+			searchInput.placeholder =''
+            startTyping();
+            
+        });
+    }
+
+    startTyping();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

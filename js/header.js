@@ -7,15 +7,14 @@ header.append(`
     <a class="col p-md-1 me-xl-4 boton_navegacion d-fnone d-xl-block" href="index.html">Inicio</a>
     <a class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block   dropdown-toggle"  role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
     <ul class="dropdown-menu w-25" aria-labelledby="dropdownMenuLink">
-        <li><a class="dropdown-item" href="#">Action</a></li>
-        <li><a class="dropdown-item" href="#">Another action</a></li>
-        <li><a class="dropdown-item" href="#">Something</a></li>
-        <li><a class="dropdown-item" href="#">Something</a></li>
-        <li><a class="dropdown-item" href="#">Something</a></li>
+        <li><a class="dropdown-item" href="productos.html#accion">Action</a></li>
+        <li><a class="dropdown-item" href="productos.html#deportes">Sports</a></li>
+        <li><a class="dropdown-item" href="productos.html#disparos">Shooter</a></li>
+        <li><a class="dropdown-item" href="productos.html#horror">Horror</a></li>
     </ul>
     <a class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block" href="productos.html">Promociones</a>
-    <a class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block" href="#">Soporte</a>
-    <a class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block" href="#noticias">Noticias</a> 
+    <a class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block" href="faq.html">Soporte</a>
+    <a class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block" href="index.html#noticias">Noticias</a> 
     <div class="col p-md-1 me-xl-4 d-block d-xl-none">
         <div class="container-fluid navbar navbar-dark">
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
