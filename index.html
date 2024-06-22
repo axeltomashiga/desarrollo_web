@@ -5,37 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aida Games</title>
     <link rel="icon" href="./img/favicon.png"  type="img/favicon/png">
-    <link rel="stylesheet" href="css/index.css">
+   
+   
     <!-- GOOGLE FONT -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   
+   
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/header.css">
+   
 </head>
 <body>
-    <header class="container-fluid">
-        <div class="col-12 col-sm-3 p-md-1 nombre" ><h1>Aida Games</h1></div>
-        <nav class="row g-0 align-items-center">  
-                <div id="barra" class="row g-0 justify-content-sm-end text-center dropdown">
-                    <a class="col p-md-1 boton_navegacion d-none d-sm-block" href="#">Inicio</a>
-                    <a class="col p-md-1 boton_navegacion d-none d-sm-block   dropdown-toggle"  role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
-                    <ul class="dropdown-menu w-25" aria-labelledby="dropdownMenuLink">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                        <li><a class="dropdown-item" href="#">Something</a></li>
-                        <li><a class="dropdown-item" href="#">Something</a></li>
-                        <li><a class="dropdown-item" href="#">Something</a></li>
-                    </ul>
-                    <a class="col p-md-1 boton_navegacion d-none d-sm-block" href="#">Promociones</a>
-                    <a class="col p-md-1 boton_navegacion d-none d-sm-block" href="#">Soporte</a>
-                    <a class="col p-md-1 boton_navegacion d-none d-sm-block" href="#noticias">Noticias</a>
-                    <!-- <div class="col p-md-1  d-none d-sm-block blanco"></div> -->
-                </div>
-            </div>    
-        </nav>
-    </header>
+    <header class="container-fluid bg-black">
 
+    </header>
 
     <main>
         <div class="hero">
@@ -46,9 +33,8 @@
                         aliada de los terráneos y enfréntate al mal antiguo que acecha en la oscuridad</p>
                 <a href="#" class="btn">JUEGA GRATIS</a>
             </div>
-            <div class="prueba">
+            <div class="prueba" id="chevron">
                 <a href="#banner">
-
                     <img src="./img/chevron-down.svg" height="10rem">
                 </a>
                 </div>
@@ -57,176 +43,61 @@
 
     <!-- banner -->
     <section class="banner" id="banner">
+        <video 
+        class="mivideo" id="myVideo"
+        preload="auto"
+        poster="./img/vista_previa.jpg" 
+        autoplay>
+        
+            <source src="./vid/video.mp4" type="video/mp4">
+        </video>
+
         <div class="recuadro">
-            <div>
+            <div class="izquierda">
                 <h2>Descubre las Últimas Promociones y Estrenos en el Mundo de los Videojuegos</h2>
             </div>
             <div class="derecha">
-                
-                <p>Disfruta de acceso ilimitado a los últimos videojuegos y las mejores ofertas del mercado. Con nuestras suscripciones, tendrás la posibilidad de explorar nuevos mundos y disfrutar de una comunidad gamer activa.</p>
-                <!-- <p>¡No te pierdas nuestras promociones exclusivas!</p> -->
-                <div>Ofertas disponibles por:
+
+                <p>Disfruta de acceso ilimitado a los últimos videojuegos y las mejores ofertas del mercado. Con nuestras suscripciones, tendrás la posibilidad de explorar nuevos mundos y disfrutar de una comunidad gamer activa.</p>    
+                    <p>
+                        Ofertas disponibles por:
+                    </p>
                     <div class="timer" id="timer">
-                        24hs 00mins 00secs
+                            24hs 00mins 00secs
                     </div>
-                    </div>
+                
                 
                 <div class="fila_banner">
-                    <div class="col-3 p-md-3 col-xs-12  suscriptionbox">
+                    <div class="suscriptionbox bronze">
                         <div>1 Mes</div>
                         <img src="" alt="">
                         <div class="precioanterior">$100</div>
                         <div>$80</div>
                     </div>
-                    <div class="col-3 p-md-3  suscriptionbox">
+                    <div class="suscriptionbox silver">
                         <div>6 Meses</div>
                         <img src="" alt="">
                         <div class="precioanterior">$500</div>
                         <div>400</div>
                     </div> 
-                    <div class="col-3 p-md-3  suscriptionbox">
+                    <div class="suscriptionbox gold">
                         <div>12 Meses</div>
-                        <!-- <div class="diagonal-line"></div> -->
                         <img src="" alt="">
                         <div class="precioanterior">$800</div>
                         <div>700</div>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div>    
+        </div>      
         
-            
+        <button id="mostrarsubscripciones" class="mostrarsubscripciones">
+            Subscripciones ▲
+        </button>
+    
     </section>
     <!-- Call to Action -->
     <section></section>
-    
-    <!-- Galería de Productos -->
-   <section class="container-fluid mt-2">
-    <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-4 justify-content-start g-0">
-        <div class="col d-flex justify-content-center">
-            <div class="product-card">
-                <div class="product-image">
-                    <div class="product-box-image">
-                        <img src="img/cyberpunk_2077_portada.jpg" alt="Cyberpunk 2077">
-                    </div>
-                </div>
-                <div class="product-details">
-                    <h3 class="product-title">Cyberpunk 2077</h3>
-                    <p class="product-price">$19.99</p>
-                    <p class="product-description">Sumergete en un mundo inmersivo y futurista.</p>
-                    <!-- <a href="plantilla_juego.html" class="buy-button">Comprar</a> -->
-                </div>
-            </div>
-        </div>
-        <div class="col d-flex justify-content-center">
-            <div class="product-card">
-                <div class="product-image">
-                    <div class="product-box-image">
-                        <img src="img/fifa25.jpg" alt="Producto 2">
-                    </div>
-                    
-                </div>
-                <div class="product-details">
-                    <h3 class="product-title">Fifa 25</h3>
-                    <p class="product-price">$29.99</p>
-                    <p class="product-description">Descripción breve del producto 2.</p>
-            
-                </div>
-            </div>
-        </div>
-        <div class="col d-flex justify-content-center">
-            <div class="product-card">
-                <div class="product-image">
-                    <div class="product-box-image">
-                        <img src="img/grand_theft_auto.jpg" alt="Producto 3">
-                    </div>
-                </div>
-                <div class="product-details">
-                    <h3 class="product-title">Grand Thef Auto 6</h3>
-                    <p class="product-price">$39.99</p>
-                    <p class="product-description">Descripción breve del producto 3.</p>
-
-                </div>
-            </div>
-        </div>
-        <div class="col d-flex justify-content-center">
-            <div class="product-card">
-                <div class="product-image">
-                    <div class="product-box-image">
-                        <img src="img/rustimg.webp" alt="Producto 1">
-                    </div>
-                </div>
-                <div class="product-details">
-                    <h3 class="product-title">Rust</h3>
-                    <p class="product-price">$19.99</p>
-                    <p class="product-description">Descripción breve del producto 1.</p>
-
-                </div>
-            </div>
-        </div>
-        <div class="col d-flex justify-content-center">
-            <div class="product-card">
-                <div class="product-image">
-                    <div class="product-box-image">
-                        <img src="img/cyberpunk_2077_portada.jpg" alt="Cyberpunk 2077">
-                    </div>
-                </div>
-                <div class="product-details">
-                    <h3 class="product-title">Cyberpunk 2077</h3>
-                    <p class="product-price">$19.99</p>
-                    <p class="product-description">Sumergete en un mundo inmersivo y futurista.</p>
-                    <!-- <a href="plantilla_juego.html" class="buy-button">Comprar</a> -->
-                </div>
-            </div>
-        </div>
-        <div class="col d-flex justify-content-center">
-            <div class="product-card">
-                <div class="product-image">
-                    <div class="product-box-image">
-                        <img src="img/fifa25.jpg" alt="Producto 2">
-                    </div>
-                    
-                </div>
-                <div class="product-details">
-                    <h3 class="product-title">Fifa 25</h3>
-                    <p class="product-price">$29.99</p>
-                    <p class="product-description">Descripción breve del producto 2.</p>
-            
-                </div>
-            </div>
-        </div>
-        <div class="col d-flex justify-content-center">
-            <div class="product-card">
-                <div class="product-image">
-                    <div class="product-box-image">
-                        <img src="img/grand_theft_auto.jpg" alt="Producto 3">
-                    </div>
-                </div>
-                <div class="product-details">
-                    <h3 class="product-title">Grand Thef Auto 6</h3>
-                    <p class="product-price">$39.99</p>
-                    <p class="product-description">Descripción breve del producto 3.</p>
-
-                </div>
-            </div>
-        </div>
-        <div class="col d-flex justify-content-center">
-            <div class="product-card">
-                <div class="product-image">
-                    <div class="product-box-image">
-                        <img src="img/rustimg.webp" alt="Producto 1">
-                    </div>
-                </div>
-                <div class="product-details">
-                    <h3 class="product-title">Rust</h3>
-                    <p class="product-price">$19.99</p>
-                    <p class="product-description">Descripción breve del producto 1.</p>
-
-                </div>
-            </div>
-        </div>
-    </section>
-    
+        
     <section>
         <div id="noticias" class="noticias">Noticias</div>
     </section>
@@ -244,7 +115,9 @@
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>    <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
+    
     <script src="js/index.js"></script>
+    <script src="js/header.js"></script>
     
     
     <script></script>

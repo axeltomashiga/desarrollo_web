@@ -1,36 +1,17 @@
 $(document).ready(() => {
-    // Define y añade el elemento <style> al <head>
-    var style = $('<style></style>').appendTo('head');
 
     $(window).on("scroll", () => {
         var newScroll = $(window).scrollTop();
-
-        
-        var barra = $('header');
-        var banner = $('.banner');
-
-        if (newScroll >= 52) {
-            barra.addClass('bg-black');
-            // barra.addClass('bg-black')
-        } else {
-            barra.removeClass('bg-black');
-            // barra.removeClass('bg-black')
-
-        }
-
-        // Calcula la nueva posición
-        var newPos = -523 + newScroll/15;
-
-        
-        // Actualiza la regla CSS para cambiar background-position-y
-        style.html(`.banner::before { background-position-y: ${newPos}px; }`);
-    });
+        if (newScroll >= 200) {
+            console.log("intento reproducir video")
+            const video = document.getElementById('myVideo');
+            video.play().catch(error => {
+              console.log('Error al intentar reproducir el video:', error);
+            });
+            
+        } else {}
+        });
 });
-
-
-
-
-
 
 function startTimer(duration, display) {
     let timer = duration, hours, minutes, seconds;
@@ -58,6 +39,39 @@ window.onload = function () {
     startTimer(duration, display);
 };
 
+window.addEventListener('load', function() {
+    const video = document.getElementById('myVideo');
+    video.volume = 0.2; 
+    video.muted = false;
+   
+  });
+
+  document.getElementById('chevron').addEventListener('click', function() {
+    const video = document.getElementById('myVideo');
+    video.play().catch(error => {
+      console.log('Error al intentar reproducir el video:', error);
+    });
+  });
+
+  document.getElementById('mostrarsubscripciones').addEventListener('click', function() {
+    var mostrarsubscripciones=  $('#mostrarsubscripciones');
+    var recuadrobanner = $('.recuadro');
+    if (recuadrobanner.css('visibility') === 'visible') {
+      recuadrobanner.css('visibility', 'hidden');
+      mostrarsubscripciones.text("Subscripciones ▲");
+    } else {
+      recuadrobanner.css('visibility', 'visible');
+      mostrarsubscripciones.text("Subscripciones ▼");
+  }
+  });
+
+
+
+  
+  document.getElementById('myVideo').addEventListener('ended', function() {
+    var recuadrobanner = $('.recuadro');
+    recuadrobanner.css('visibility', 'visible');
+  });
 
 
 
@@ -66,22 +80,6 @@ window.onload = function () {
 
 
 
-
-
-
-
-// $(document).ready(()=>{
-//     var blanco = $('#blanco').click(cambiarColor);
-
-//     // Función para cambiar el color de fondo de la caja a rojo
-//     function cambiarColor() {
-//         blanco.css('backgroundColor','green');
-//     }
-// })
-
-
-
-// var blanco = $('#barra').click(cambiarColor);
 
 
 

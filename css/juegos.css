@@ -3,6 +3,11 @@ body {
     color: whitesmoke;
 }
 
+#cuerpo{
+    padding-top: 8%;
+    position: relative;
+}
+
 
 .container-fluid {
     background-color: rgb(46, 46, 46);
@@ -15,7 +20,8 @@ body {
     border: none;
 }
 
-img {
+aside img {
+    object-fit: cover;
     width: 100%;
 }
 
@@ -38,5 +44,6 @@ img {
 }
 
 .game-info {
+    
     border-bottom: solid grey 2px;
 }
