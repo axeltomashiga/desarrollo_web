@@ -73,8 +73,13 @@ window.addEventListener('load', function() {
     recuadrobanner.css('visibility', 'visible');
   });
 
-
-
+ 
+  document.getElementById('banner').addEventListener('click', function() {
+    const video = document.getElementById('myVideo');
+    video.play().catch(error => {
+      console.log('Error al intentar reproducir el video:', error);
+    });
+  });
 
 
 

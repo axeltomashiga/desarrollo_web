@@ -1,146 +1,218 @@
-juegos_json=[
+var juegos_json=[
     {
         "categoria": "accion",
-        "id": 1,
         "nombre": "Cyberpunk",
         "descripcion": "Un RPG de mundo abierto futurista donde juegas como V, un mercenario en la ciudad de Night City.",
+        "descripcion_media": "Cyberpunk es un juego ambientado en un futuro distópico, donde los jugadores exploran una vasta ciudad llena de misiones y personajes intrigantes.",
+        "descripcion_larga": "El juego destaca por su narrativa profunda y su jugabilidad dinámica, con un enfoque en la personalización de personajes y la toma de decisiones que afectan el mundo del juego.",
         "imagen": "cyberpunk.jpg",
-        "precio": "$19.99"
+        "precio": "$19.99",
+        "foto1": "cyberpunk_f1.jpg",
+        "foto2": "cyberpunk_f2.gif",
+        "foto3": "cyberpunk_f3.jpg"
     },
     {
         "categoria": "accion",
-        "id": 2,
         "nombre": "GTA 6",
         "descripcion": "El próximo título en la serie Grand Theft Auto, conocido por su juego de mundo abierto y narrativa rica.",
+        "descripcion_media": "GTA 6 promete una experiencia de mundo abierto sin precedentes, con una historia rica y personajes memorables.",
+        "descripcion_larga": "El juego ofrece una amplia variedad de actividades y misiones, con gráficos mejorados y una jugabilidad que se adapta a múltiples estilos.",
         "imagen": "grand_theft_auto.jpg",
-        "precio": "$59.99"
+        "precio": "$59.99",
+        "foto1": "grand_theft_auto_f1.jpg",
+        "foto2": "grand_theft_auto_f2.jpg",
+        "foto3": "grand_theft_auto_f3.jpg"
     },
     {
         "categoria": "accion",
-        "id": 3,
         "nombre": "Rust",
         "descripcion": "Un juego de supervivencia multijugador donde debes recolectar recursos, construir y defenderte de otros jugadores.",
+        "descripcion_media": "Rust es un juego que desafía a los jugadores a sobrevivir en un entorno hostil, recolectando recursos y construyendo refugios.",
+        "descripcion_larga": "La interacción con otros jugadores es clave en Rust, ya sea a través de alianzas o conflictos. La estrategia y la adaptabilidad son esenciales para sobrevivir.",
         "imagen": "rust.webp",
-        "precio": "$39.99"
+        "precio": "$39.99",
+        "foto1": "",
+        "foto2": "",
+        "foto3": ""
     },
     {
         "categoria": "accion",
-        "id": 4,
         "nombre": "Darksouls",
         "descripcion": "Un desafiante RPG de acción conocido por su jugabilidad intensa y su narrativa profunda.",
+        "descripcion_media": "Darksouls es conocido por su alta dificultad y su enfoque en el combate preciso y la exploración.",
+        "descripcion_larga": "Los jugadores se enfrentarán a enemigos formidables y jefes desafiantes, con una narrativa que se desarrolla a través del entorno y los objetos encontrados.",
         "imagen": "darksouls.jpg",
-        "precio": "$59.99"
+        "precio": "$59.99",
+        "foto1": "",
+        "foto2": "",
+        "foto3": ""
     },
     {
         "categoria": "accion",
-        "id": 5,
         "nombre": "Mortal Kombat",
         "descripcion": "Un icónico juego de lucha conocido por sus gráficos detallados y movimientos finales únicos.",
+        "descripcion_media": "Mortal Kombat ofrece combates intensos y gráficos impresionantes, con una variedad de personajes icónicos.",
+        "descripcion_larga": "El juego es famoso por sus fatalities, movimientos finales espectaculares que añaden un toque único a cada combate.",
         "imagen": "mortalkombat.jpg",
-        "precio": "$19.99"
+        "precio": "$19.99",
+        "foto1": "",
+        "foto2": "",
+        "foto3": ""
     },
     {
         "categoria": "accion",
-        "id": 6,
         "nombre": "Assasins creed",
         "descripcion": "Un icónico juego de lucha conocido por sus gráficos detallados y movimientos finales únicos.",
+        "descripcion_media": "Assassin's Creed es una serie conocida por sus vastos mundos abiertos y su narrativa histórica.",
+        "descripcion_larga": "Cada juego ofrece una mezcla de sigilo, combate y exploración, con una historia que se entrelaza con eventos históricos.",
         "imagen": "assasinscreed.jpeg",
-        "precio": "$39.99"
+        "precio": "$39.99",
+        "foto1": "",
+        "foto2": "",
+        "foto3": ""
     },
     {
         "categoria": "accion",
-        "id": 7,
         "nombre": "The last of us",
         "descripcion": "Un icónico juego de lucha conocido por sus gráficos detallados y movimientos finales únicos.",
+        "descripcion_media": "The Last of Us es un juego narrativo que se centra en la relación entre los personajes y la supervivencia en un mundo post-apocalíptico.",
+        "descripcion_larga": "El juego combina elementos de acción, sigilo y exploración, con una historia emotiva y personajes profundos.",
         "imagen": "thelastofus.jpg",
-        "precio": "$39.99"
+        "precio": "$39.99",
+        "foto1": "",
+        "foto2": "",
+        "foto3": ""
     },
     {
         "categoria": "deportes",
-        "id": 8,
         "nombre": "Fifa 25",
         "descripcion": "El último juego de la serie FIFA, ofreciendo una experiencia de fútbol realista con equipos y jugadores actualizados.",
+        "descripcion_media": "FIFA 25 presenta gráficos mejorados y una jugabilidad refinada, con todos los equipos y jugadores actualizados.",
+        "descripcion_larga": "El juego incluye modos de juego variados, desde partidos rápidos hasta modos de carrera profundos, ofreciendo algo para todos los aficionados al fútbol.",
         "imagen": "fifa25.jpg",
-        "precio": "$39.99"
+        "precio": "$39.99",
+        "foto1": "",
+        "foto2": "",
+        "foto3": ""
     },
     {
         "categoria": "deportes",
-        "id": 9,
         "nombre": "NBA 2k25",
         "descripcion": "La edición más reciente de la popular serie de juegos de baloncesto, conocida por su realismo y jugabilidad.",
+        "descripcion_media": "NBA 2K25 ofrece una simulación realista de baloncesto, con gráficos impresionantes y una jugabilidad fluida.",
+        "descripcion_larga": "El juego incluye una variedad de modos de juego, desde partidos rápidos hasta una profunda experiencia de carrera, permitiendo a los jugadores vivir el sueño de ser una estrella del baloncesto.",
         "imagen": "NBA.png",
-        "precio": "$19.99"
+        "precio": "$19.99",
+        "foto1": "",
+        "foto2": "",
+        "foto3": ""
     },
     {
         "categoria": "deportes",
-        "id": 10,
         "nombre": "MADDEN 2025",
         "descripcion": "El nuevo título de la serie Madden NFL, que ofrece una experiencia de fútbol americano con gráficos mejorados y jugabilidad profunda.",
+        "descripcion_media": "Madden 2025 mejora la simulación de fútbol americano con gráficos mejorados y una jugabilidad más realista.",
+        "descripcion_larga": "El juego presenta equipos y jugadores actualizados, con modos de juego que van desde partidos rápidos hasta la gestión de un equipo completo en el modo franquicia.",
         "imagen": "madden.jpeg",
-        "precio": "$59.99"
+        "precio": "$59.99",
+        "foto1": "",
+        "foto2": "",
+        "foto3": ""
     },
     {
         "categoria": "deportes",
-        "id": 11,
         "nombre": "Descenders",
         "descripcion": "Un juego de ciclismo extremo de downhill con niveles generados proceduralmente y físicas realistas.",
+        "descripcion_media": "Descenders desafía a los jugadores a dominar el ciclismo de downhill con niveles generados proceduralmente y físicas realistas.",
+        "descripcion_larga": "El juego ofrece una experiencia intensa y adictiva, con una gran variedad de terrenos y desafíos que pondrán a prueba tus habilidades de ciclismo.",
         "imagen": "descenders.jpg",
-        "precio": "$19.99"
+        "precio": "$19.99",
+        "foto1": "",
+        "foto2": "",
+        "foto3": ""
     },
     {
         "categoria": "deportes",
-        "id": 12,
         "nombre": "Forza Horizon",
         "descripcion": "Un juego de carreras en mundo abierto, conocido por sus gráficos impresionantes y una amplia variedad de coches.",
+        "descripcion_media": "Forza Horizon ofrece una experiencia de carreras en un mundo abierto con gráficos impresionantes y una amplia variedad de coches.",
+        "descripcion_larga": "El juego permite a los jugadores explorar un vasto mundo abierto, participando en carreras y eventos, con una jugabilidad que combina realismo y diversión.",
         "imagen": "forzahorizon.jpg",
-        "precio": "$39.99"
+        "precio": "$39.99",
+        "foto1": "",
+        "foto2": "",
+        "foto3": ""
     },
     {
         "categoria": "disparos",
-        "id": 13,
         "nombre": "Counter Strike",
         "descripcion": "La secuela del clásico juego de disparos en primera persona, conocido por su jugabilidad competitiva y táctica.",
+        "descripcion_media": "Counter Strike es un juego de disparos en primera persona que se centra en el combate táctico y el trabajo en equipo.",
+        "descripcion_larga": "El juego es conocido por su jugabilidad competitiva y la necesidad de estrategias bien planificadas para vencer a los oponentes.",
         "imagen": "counter.jpg",
-        "precio": "$19.99"
+        "precio": "$19.99",
+        "foto1": "",
+        "foto2": "",
+        "foto3": ""
     },
     {
         "categoria": "disparos",
-        "id": 14,
         "nombre": "Call of Duty",
         "descripcion": "Una popular serie de juegos de disparos en primera persona, conocida por su campaña intensa y multijugador adictivo.",
+        "descripcion_media": "Call of Duty es una serie de juegos de disparos en primera persona con campañas intensas y modos multijugador adictivos.",
+        "descripcion_larga": "El juego ofrece una experiencia cinematográfica en sus campañas, mientras que su multijugador es conocido por su jugabilidad rápida y frenética.",
         "imagen": "callofduty.jpg",
-        "precio": "$59.99"
+        "precio": "$59.99",
+        "foto1": "",
+        "foto2": "",
+        "foto3": ""
     },
     {
         "categoria": "disparos",
-        "id": 15,
         "nombre": "Hell Let Loose",
         "descripcion": "Un juego de disparos en primera persona ambientado en la Segunda Guerra Mundial, con un enfoque en la estrategia y el trabajo en equipo.",
+        "descripcion_media": "Hell Let Loose es un juego de disparos en primera persona ambientado en la Segunda Guerra Mundial que enfatiza la estrategia y el trabajo en equipo.",
+        "descripcion_larga": "El juego recrea batallas históricas con una gran atención al detalle, ofreciendo una experiencia inmersiva y desafiante.",
         "imagen": "hellletloose.jpg",
-        "precio": "$39.99"
+        "precio": "$39.99",
+        "foto1": "",
+        "foto2": "",
+        "foto3": ""
     },
     {
         "categoria": "disparos",
-        "id": 16,
         "nombre": "Battlefield",
         "descripcion": "Una serie de juegos de disparos en primera persona, conocida por sus grandes mapas, vehículos y combates épicos.",
+        "descripcion_media": "Battlefield es una serie de juegos de disparos en primera persona que ofrece combates épicos en grandes mapas con vehículos.",
+        "descripcion_larga": "El juego es conocido por su jugabilidad a gran escala, donde los jugadores pueden participar en intensas batallas que incluyen infantería, vehículos terrestres y aéreos.",
         "imagen": "battlefield.jpg",
-        "precio": "$59.99"
+        "precio": "$59.99",
+        "foto1": "",
+        "foto2": "",
+        "foto3": ""
     },
     {
         "categoria": "disparos",
-        "id": 17,
         "nombre": "Nuketown",
         "descripcion": "Una serie de juegos de disparos en primera persona, conocida por sus grandes mapas, vehículos y combates épicos.",
+        "descripcion_media": "Nuketown es un mapa icónico en los juegos de disparos en primera persona, conocido por su diseño compacto y combates frenéticos.",
+        "descripcion_larga": "El mapa ofrece una experiencia intensa y rápida, ideal para aquellos que disfrutan de la acción constante y la necesidad de reflejos rápidos.",
         "imagen": "nuketown.jpg",
-        "precio": "$19.99"
+        "precio": "$19.99",
+        "foto1": "",
+        "foto2": "",
+        "foto3": ""
     },
     {
         "categoria": "horror",
-        "id": 18,
         "nombre": "Silent Hill",
         "descripcion": "Añadir descripcion",
+        "descripcion_media": "Silent Hill es una serie de juegos de horror conocidos por su atmósfera inquietante y su narrativa psicológica.",
+        "descripcion_larga": "Los jugadores exploran la misteriosa ciudad de Silent Hill, enfrentándose a horrores inimaginables mientras descubren una historia profunda y perturbadora.",
         "imagen": "silenthill.jpg",
-        "precio": "$19.99"
+        "precio": "$19.99",
+        "foto1": "",
+        "foto2": "",
+        "foto3": ""
     }
 ]
