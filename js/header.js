@@ -1,4 +1,3 @@
-console.log("entre aca2");
 const header = $(`header`);
 
 header.append(`
