@@ -1,27 +1,27 @@
-function initializeCarousel(id, listaDeListas) {
-    const carousel = $(`#${id}`);
+function initializeCarousel(juegos_json) {
+
     
-    for (let i = 0; i < listaDeListas.length; i++) {
-        console.log(`Agregando elemento ${i + 1} a ${id}`);
+    for (let i = 0; i < juegos_json.length; i++){
+		const carousel = $(`#${juegos_json[i].categoria}`);
         carousel.append(`
         <div class="item row row-cols-1 justify-content-start g-0">
             <div class="auxiliar col justify-content-center">
                 <div class="product-card">
                     <div class="front">
                         <div class="product-image">
-                            <a class="product-box-image" href="plantilla_juego.html?id=${listaDeListas[i][0]}" >
-                                <img src="img/${listaDeListas[i][2]}" alt="">
+                            <a class="product-box-image" href="plantilla_juego.html?id=${i}" >
+                                <img src="img/${juegos_json[i].imagen}" alt="">
                             </a>
                         </div>
                         <div class="product-details">
-                            <h4 class="product-title">${listaDeListas[i][0]}</h4>
-                            <p class="product-price">${listaDeListas[i][3]}</p>
+                            <h4 class="product-title">${juegos_json[i].nombre}</h4>
+                            <p class="product-price">${juegos_json[i].precio}</p>
                             <button class="descripcion">Descripcion</button>
                         </div>
                     </div>
                     <div class="back">
                         <div class="overlay">
-                            <div class="reglonoverlay">${listaDeListas[i][1]}</div> 
+                            <div class="reglonoverlay">${juegos_json[i].descripcion}</div> 
                             <button class="descripcion">Voltear</button>  
                         </div>
                     </div>
@@ -45,10 +45,8 @@ $(document).ready(function() {
 
     const carousel = $(".owl-carousel");
 
-    initializeCarousel('accion', listadeaccion);
-    initializeCarousel('deporte', listadedeportes);
-    initializeCarousel('disparos', listadedisparos);
-	initializeCarousel('horror', listadehorror);
+    initializeCarousel(juegos_json);
+
 
 
     $(".owl-carousel").owlCarousel({

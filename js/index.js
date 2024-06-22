@@ -1,12 +1,7 @@
 $(document).ready(() => {
 
-    console.log('Hola, mundo!');
-
     $(window).on("scroll", () => {
         var newScroll = $(window).scrollTop();
-
-        
-
         if (newScroll >= 200) {
             console.log("intento reproducir video")
             const video = document.getElementById('myVideo');
@@ -17,11 +12,6 @@ $(document).ready(() => {
         } else {}
         });
 });
-
-
-
-
-
 
 function startTimer(duration, display) {
     let timer = duration, hours, minutes, seconds;
@@ -49,15 +39,6 @@ window.onload = function () {
     startTimer(duration, display);
 };
 
-
-
-
-
-
-
-
-
-
 window.addEventListener('load', function() {
     const video = document.getElementById('myVideo');
     video.volume = 0.2; 
@@ -65,21 +46,12 @@ window.addEventListener('load', function() {
    
   });
 
-
-
-
-
-
-
   document.getElementById('chevron').addEventListener('click', function() {
     const video = document.getElementById('myVideo');
     video.play().catch(error => {
       console.log('Error al intentar reproducir el video:', error);
     });
   });
-
-
-
 
   document.getElementById('mostrarsubscripciones').addEventListener('click', function() {
     var mostrarsubscripciones=  $('#mostrarsubscripciones');
@@ -95,12 +67,18 @@ window.addEventListener('load', function() {
 
 
 
-
-
+  
   document.getElementById('myVideo').addEventListener('ended', function() {
     var recuadrobanner = $('.recuadro');
     recuadrobanner.css('visibility', 'visible');
   });
+
+
+
+
+
+
+
 
 
 
