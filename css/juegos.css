@@ -15,7 +15,8 @@ body {
     border: none;
 }
 
-img {
+aside img {
+    object-fit: cover;
     width: 100%;
 }
 
@@ -38,5 +39,6 @@ img {
 }
 
 .game-info {
+    
     border-bottom: solid grey 2px;
 }
