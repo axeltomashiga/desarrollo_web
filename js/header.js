@@ -1,7 +1,9 @@
 const header = $(`header`);
 
 header.append(`
-    <div><h1>Aida Games</h1></div>
+    <div class="logo">
+    <img src="./img/aidagames.png">
+    </div>
 <nav class="row g-0 align-items-center">  
     <a class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block" href="index.html">Inicio</a>
     <a id="boton_header_subscripciones" class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block" href="index.html#banner">Subscripciones</a>

@@ -34,7 +34,7 @@ function startTimer(duration, display) {
 }
 
 window.onload = function () {
-    const duration = 24 * 60 * 60; // 24 hours in seconds
+    const duration = 24 * 60 * 60;
     const display = document.getElementById('timer');
     startTimer(duration, display);
 };

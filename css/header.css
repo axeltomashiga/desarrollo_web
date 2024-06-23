@@ -68,17 +68,51 @@
 .dropdown-item {
     z-index: 1000;
 }
-
-
-
 #barra {
     background-color: none;
 }
 
+
+.logo img{
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 15px;
+    height: 65px;
+    margin-left:60px;
+    position: relative;
+}
+.logo img:hover{
+    box-shadow: 1px 1px 1px 1px rgba(35, 0, 233, 1), /* Sombra blanca */
+    -1px -1px 1px 1px rgb(255, 0, 0),  /* Sombra negra desplazada */
+    1px -1px 1px 1px rgb(255, 255, 255), /* Sombra blanca */
+    -1px 1px 1px 1px rgb(255, 255, 255)
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #barra h1{
-    font-size: x-large;
-    font-weight: 700;
-    margin-top: 3px;
+    position: absolute;
+    color: transparent;
     
 }
 

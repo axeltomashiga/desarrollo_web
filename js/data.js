@@ -151,7 +151,7 @@ var juegos_json=[
         "descripcion_larga": "El juego es conocido por su jugabilidad competitiva y la necesidad de estrategias bien planificadas para vencer a los oponentes.",
         "imagen": "counter.jpg",
         "precio": "$19.99",
-        "foto1": "",
+        "foto1": "counter_f1.jpg",
         "foto2": "",
         "foto3": ""
     },
