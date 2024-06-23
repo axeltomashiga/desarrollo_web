@@ -9,7 +9,7 @@ header.append(`
     <a id="boton_header_subscripciones" class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block" href="index.html#banner">Subscripciones</a>
     <a class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block   dropdown-toggle"  role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
     <ul class="dropdown-menu w-25" aria-labelledby="dropdownMenuLink">
-        <li><a class="dropdown-item" href="productos.html#accion">Action</a></li>
+        <li><a class="dropdown-item" href="productos.html">Action</a></li>
         <li><a class="dropdown-item" href="productos.html#deportes">Sports</a></li>
         <li><a class="dropdown-item" href="productos.html#disparos">Shooter</a></li>
         <li><a class="dropdown-item" href="productos.html#horror">Horror</a></li>

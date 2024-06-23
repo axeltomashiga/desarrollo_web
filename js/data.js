@@ -31,9 +31,9 @@ var juegos_json=[
         "descripcion_larga": "La interacción con otros jugadores es clave en Rust, ya sea a través de alianzas o conflictos. La estrategia y la adaptabilidad son esenciales para sobrevivir.",
         "imagen": "rust.webp",
         "precio": "$39.99",
-        "foto1": "",
-        "foto2": "",
-        "foto3": ""
+        "foto1": "rust_f1.jpg",
+        "foto2": "rust_f2.jpg",
+        "foto3": "rust_f3.jpg"
     },
     {
         "categoria": "accion",
@@ -43,9 +43,9 @@ var juegos_json=[
         "descripcion_larga": "Los jugadores se enfrentarán a enemigos formidables y jefes desafiantes, con una narrativa que se desarrolla a través del entorno y los objetos encontrados.",
         "imagen": "darksouls.jpg",
         "precio": "$59.99",
-        "foto1": "",
-        "foto2": "",
-        "foto3": ""
+        "foto1": "darksouls_f1.jpg",
+        "foto2": "darksouls_f2.jpg",
+        "foto3": "darksouls_f3.jpg"
     },
     {
         "categoria": "accion",
@@ -55,9 +55,9 @@ var juegos_json=[
         "descripcion_larga": "El juego es famoso por sus fatalities, movimientos finales espectaculares que añaden un toque único a cada combate.",
         "imagen": "mortalkombat.jpg",
         "precio": "$19.99",
-        "foto1": "",
-        "foto2": "",
-        "foto3": ""
+        "foto1": "mortalkombat_f1.jpg",
+        "foto2": "mortalkombat_f2.jpg",
+        "foto3": "mortalkombat_f3.jpg"
     },
     {
         "categoria": "accion",
@@ -67,9 +67,9 @@ var juegos_json=[
         "descripcion_larga": "Cada juego ofrece una mezcla de sigilo, combate y exploración, con una historia que se entrelaza con eventos históricos.",
         "imagen": "assasinscreed.jpeg",
         "precio": "$39.99",
-        "foto1": "",
-        "foto2": "",
-        "foto3": ""
+        "foto1": "assasinscreed_f1.jpg",
+        "foto2": "assasinscreed_f2.jpg",
+        "foto3": "assasinscreed_f3.jpg"
     },
     {
         "categoria": "accion",
@@ -79,9 +79,9 @@ var juegos_json=[
         "descripcion_larga": "El juego combina elementos de acción, sigilo y exploración, con una historia emotiva y personajes profundos.",
         "imagen": "thelastofus.jpg",
         "precio": "$39.99",
-        "foto1": "",
-        "foto2": "",
-        "foto3": ""
+        "foto1": "thelastofus_f1.jpg",
+        "foto2": "thelastofus_f2.jpg",
+        "foto3": "thelastofus_f3.jpg"
     },
     {
         "categoria": "deportes",
@@ -91,9 +91,9 @@ var juegos_json=[
         "descripcion_larga": "El juego incluye modos de juego variados, desde partidos rápidos hasta modos de carrera profundos, ofreciendo algo para todos los aficionados al fútbol.",
         "imagen": "fifa25.jpg",
         "precio": "$39.99",
-        "foto1": "",
-        "foto2": "",
-        "foto3": ""
+        "foto1": "fifa25_f1.jpg",
+        "foto2": "fifa25_f2.jpg",
+        "foto3": "fifa25_f3.jpg"
     },
     {
         "categoria": "deportes",
@@ -103,9 +103,9 @@ var juegos_json=[
         "descripcion_larga": "El juego incluye una variedad de modos de juego, desde partidos rápidos hasta una profunda experiencia de carrera, permitiendo a los jugadores vivir el sueño de ser una estrella del baloncesto.",
         "imagen": "NBA.png",
         "precio": "$19.99",
-        "foto1": "",
-        "foto2": "",
-        "foto3": ""
+        "foto1": "NBA_f1.jpg",
+        "foto2": "NBA_f2.jpg",
+        "foto3": "NBA_f3.jpg"
     },
     {
         "categoria": "deportes",
@@ -115,9 +115,9 @@ var juegos_json=[
         "descripcion_larga": "El juego presenta equipos y jugadores actualizados, con modos de juego que van desde partidos rápidos hasta la gestión de un equipo completo en el modo franquicia.",
         "imagen": "madden.jpeg",
         "precio": "$59.99",
-        "foto1": "",
-        "foto2": "",
-        "foto3": ""
+        "foto1": "madden_f1.jpg",
+        "foto2": "madden_f2.jpg",
+        "foto3": "madden_f3.jpg"
     },
     {
         "categoria": "deportes",
@@ -127,9 +127,9 @@ var juegos_json=[
         "descripcion_larga": "El juego ofrece una experiencia intensa y adictiva, con una gran variedad de terrenos y desafíos que pondrán a prueba tus habilidades de ciclismo.",
         "imagen": "descenders.jpg",
         "precio": "$19.99",
-        "foto1": "",
-        "foto2": "",
-        "foto3": ""
+        "foto1": "descenders_f1.jpg",
+        "foto2": "descenders_f2.jpg",
+        "foto3": "descenders_f3.jpg"
     },
     {
         "categoria": "deportes",
@@ -139,21 +139,9 @@ var juegos_json=[
         "descripcion_larga": "El juego permite a los jugadores explorar un vasto mundo abierto, participando en carreras y eventos, con una jugabilidad que combina realismo y diversión.",
         "imagen": "forzahorizon.jpg",
         "precio": "$39.99",
-        "foto1": "",
-        "foto2": "",
-        "foto3": ""
-    },
-    {
-        "categoria": "disparos",
-        "nombre": "Counter Strike",
-        "descripcion": "La secuela del clásico juego de disparos en primera persona, conocido por su jugabilidad competitiva y táctica.",
-        "descripcion_media": "Counter Strike es un juego de disparos en primera persona que se centra en el combate táctico y el trabajo en equipo.",
-        "descripcion_larga": "El juego es conocido por su jugabilidad competitiva y la necesidad de estrategias bien planificadas para vencer a los oponentes.",
-        "imagen": "counter.jpg",
-        "precio": "$19.99",
-        "foto1": "counter_f1.jpg",
-        "foto2": "",
-        "foto3": ""
+        "foto1": "forzahorizon_f1.jpg",
+        "foto2": "forzahorizon_f2.jpg",
+        "foto3": "forzahorizon_f3.jpg"
     },
     {
         "categoria": "disparos",
@@ -163,9 +151,9 @@ var juegos_json=[
         "descripcion_larga": "El juego ofrece una experiencia cinematográfica en sus campañas, mientras que su multijugador es conocido por su jugabilidad rápida y frenética.",
         "imagen": "callofduty.jpg",
         "precio": "$59.99",
-        "foto1": "",
-        "foto2": "",
-        "foto3": ""
+        "foto1": "callofduty_f1.jpg",
+        "foto2": "callofduty_f2.jpg",
+        "foto3": "callofduty_f3.jpg"
     },
     {
         "categoria": "disparos",
@@ -175,9 +163,9 @@ var juegos_json=[
         "descripcion_larga": "El juego recrea batallas históricas con una gran atención al detalle, ofreciendo una experiencia inmersiva y desafiante.",
         "imagen": "hellletloose.jpg",
         "precio": "$39.99",
-        "foto1": "",
-        "foto2": "",
-        "foto3": ""
+        "foto1": "hellletloose_f1.jpg",
+        "foto2": "hellletloose_f2.jpg",
+        "foto3": "hellletloose_f3.jpg"
     },
     {
         "categoria": "disparos",
@@ -187,9 +175,9 @@ var juegos_json=[
         "descripcion_larga": "El juego es conocido por su jugabilidad a gran escala, donde los jugadores pueden participar en intensas batallas que incluyen infantería, vehículos terrestres y aéreos.",
         "imagen": "battlefield.jpg",
         "precio": "$59.99",
-        "foto1": "",
-        "foto2": "",
-        "foto3": ""
+        "foto1": "battlefield_f1.jpg",
+        "foto2": "battlefield_f2.jpg",
+        "foto3": "battlefield_f3.jpg"
     },
     {
         "categoria": "disparos",
@@ -199,9 +187,9 @@ var juegos_json=[
         "descripcion_larga": "El mapa ofrece una experiencia intensa y rápida, ideal para aquellos que disfrutan de la acción constante y la necesidad de reflejos rápidos.",
         "imagen": "nuketown.jpg",
         "precio": "$19.99",
-        "foto1": "",
-        "foto2": "",
-        "foto3": ""
+        "foto1": "nuketown_f1.jpg",
+        "foto2": "nuketown_f2.jpg",
+        "foto3": "nuketown_f3.jpg"
     },
     {
         "categoria": "horror",
@@ -211,8 +199,8 @@ var juegos_json=[
         "descripcion_larga": "Los jugadores exploran la misteriosa ciudad de Silent Hill, enfrentándose a horrores inimaginables mientras descubren una historia profunda y perturbadora.",
         "imagen": "silenthill.jpg",
         "precio": "$19.99",
-        "foto1": "",
-        "foto2": "",
-        "foto3": ""
+        "foto1": "silenthill_f1.jpg",
+        "foto2": "silenthill_f2.jpg",
+        "foto3": "silenthill_f3.jpg"
     }
 ]

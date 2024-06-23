@@ -82,13 +82,8 @@
     margin-left:60px;
     position: relative;
 }
-.logo img:hover{
-    box-shadow: 1px 1px 1px 1px rgba(35, 0, 233, 1), /* Sombra blanca */
-    -1px -1px 1px 1px rgb(255, 0, 0),  /* Sombra negra desplazada */
-    1px -1px 1px 1px rgb(255, 255, 255), /* Sombra blanca */
-    -1px 1px 1px 1px rgb(255, 255, 255)
 
-}
+
 
 
 

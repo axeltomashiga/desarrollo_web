@@ -70,9 +70,10 @@ body {
    color: white;
 }
 
-h3{position: relative;
+.encabezado h3{position: relative;
 display: inline-block;}
-h3::after, h3::before{
+
+.encabezado h3::after, .encabezado h3::before{
     content: '';
     position:absolute;
     width: 120px;
@@ -81,10 +82,10 @@ h3::after, h3::before{
     top: 0.6em;
     border-radius: 3px;
 }
-h3::before{
+.encabezado h3::before{
     left: -130px;
 }
-h3::after{
+.encabezado h3::after{
     right: -130px;
 }
 
@@ -132,6 +133,8 @@ h3::after{
 }
 
 .product-box-image::after {
+    content: "Ver mas";
+    font-size: larger;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     inset: 0;

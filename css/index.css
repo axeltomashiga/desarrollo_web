@@ -234,26 +234,5 @@ body {
 }
 
 
-/* ------------------------------------------------------------------------------- */
-/* Noticias */
 
-.noticias{
-
-    background-color: blue; 
-    background-blend-mode: darken;  
-    color: white;
-}
-
-
-
-
-/* ------------------------------------------------------------------------------- */
-/* FOOTER */
-
-.footer{
-    height: 40px;
-    background-color: rgba(0, 0, 0, 0.85); 
-    background-blend-mode: darken;  
-    color: white;
-}
 
