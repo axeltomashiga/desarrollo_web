@@ -17,7 +17,7 @@ footer.append(`
                 <li>Pensado, Ivan Manuel</li>
                 <li>Higa, Axel Tomas</li>
                 <li>Gavilan, Dylan Nehuen</li>
-                <li class="alejo">Aeraki, Alejo</li>
+                <li>Aeraki, Alejo</li>
             </ul>
             </div>
             <div class="footer-section">
