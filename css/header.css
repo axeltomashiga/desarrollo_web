@@ -68,17 +68,46 @@
 .dropdown-item {
     z-index: 1000;
 }
-
-
-
 #barra {
     background-color: none;
 }
 
+
+.logo img{
+    border: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 15px;
+    height: 65px;
+    margin-left:60px;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #barra h1{
-    font-size: x-large;
-    font-weight: 700;
-    margin-top: 3px;
+    position: absolute;
+    color: transparent;
     
 }
 

@@ -234,26 +234,23 @@ body {
 }
 
 
-/* ------------------------------------------------------------------------------- */
-/* Noticias */
 
-.noticias{
 
-    background-color: blue; 
-    background-blend-mode: darken;  
-    color: white;
+/* ------------------------------------------------------------------------------- /
+/ testimonial */
+.testimonial {
+    background-color: black;
 }
 
-
-
-
-/* ------------------------------------------------------------------------------- */
-/* FOOTER */
-
-.footer{
-    height: 40px;
-    background-color: rgba(0, 0, 0, 0.85); 
-    background-blend-mode: darken;  
-    color: white;
+.testimonial .carousel-item p {
+    font-size: 1.2em;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
 }
-
+.testimonial .carousel-item strong {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1.1em;
+}

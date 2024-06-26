@@ -34,7 +34,7 @@ function startTimer(duration, display) {
 }
 
 window.onload = function () {
-    const duration = 24 * 60 * 60; // 24 hours in seconds
+    const duration = 24 * 60 * 60;
     const display = document.getElementById('timer');
     startTimer(duration, display);
 };
@@ -73,8 +73,13 @@ window.addEventListener('load', function() {
     recuadrobanner.css('visibility', 'visible');
   });
 
-
-
+ 
+  document.getElementById('banner').addEventListener('click', function() {
+    const video = document.getElementById('myVideo');
+    video.play().catch(error => {
+      console.log('Error al intentar reproducir el video:', error);
+    });
+  });
 
 
 

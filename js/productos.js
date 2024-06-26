@@ -16,13 +16,17 @@ function initializeCarousel(juegos_json) {
                         <div class="product-details">
                             <h4 class="product-title">${juegos_json[i].nombre}</h4>
                             <p class="product-price">${juegos_json[i].precio}</p>
-                            <button class="descripcion">Descripcion</button>
+                            <button class="rotar">Descripcion 📄</button>
                         </div>
                     </div>
                     <div class="back">
                         <div class="overlay">
-                            <div class="reglonoverlay">${juegos_json[i].descripcion}</div> 
-                            <button class="descripcion">Voltear</button>  
+                            <div class="reglonoverlay">
+							<p>
+							${juegos_json[i].descripcion}
+							</p>
+							</div> 
+                            <button class="rotar">Voltear 🔁</button>  
                         </div>
                     </div>
                 </div>
@@ -80,7 +84,7 @@ $(document).ready(function() {
 
 
 
-        document.querySelectorAll('.descripcion').forEach(button => {
+        document.querySelectorAll('.rotar').forEach(button => {
             button.addEventListener('click', function() {
                 var productCard = this.closest('.product-card');
         

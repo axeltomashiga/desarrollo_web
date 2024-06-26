@@ -19,7 +19,8 @@ body {
     margin-bottom: 40px;
     position: relative;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
     color: white;
 }
 
@@ -30,11 +31,12 @@ body {
 
 .titulo input[type="text"] {
     width: 30%;
+    min-width: 200px;
     padding: 10px 20px;
     font-size: 16px;
     border-radius: 25px;
     border: none;
-  
+
     transition: all 0.3s ease-in-out;
     box-shadow: 0 0 15px rgba(0,0,0,0.5);
 }
@@ -44,7 +46,13 @@ body {
     box-shadow: 0 0 20px rgba(0,0,0,0.8);
 }
 
-
+@media (min-width:755px) {
+    .titulo{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
+/* ---------------------------------------- */
 
 
 
@@ -62,9 +70,10 @@ body {
    color: white;
 }
 
-h3{position: relative;
+.encabezado h3{position: relative;
 display: inline-block;}
-h3::after, h3::before{
+
+.encabezado h3::after, .encabezado h3::before{
     content: '';
     position:absolute;
     width: 120px;
@@ -73,10 +82,10 @@ h3::after, h3::before{
     top: 0.6em;
     border-radius: 3px;
 }
-h3::before{
+.encabezado h3::before{
     left: -130px;
 }
-h3::after{
+.encabezado h3::after{
     right: -130px;
 }
 
@@ -125,7 +134,7 @@ h3::after{
 
 .product-box-image::after {
     content: "Ver mas";
-
+    font-size: larger;
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
     inset: 0;
@@ -148,12 +157,44 @@ h3::after{
     width: 100%;
     border-radius: 5px;
     padding: 10px;
-    height: 95%;
+    height: 80%;
+    color: white;
+    margin-bottom: 27%;
+    line-height:1.25;
+    position: relative;
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    border: solid;
+    border-color: black;
+    border-width: 3px;
 }
+
+
+
+
+  .reglonoverlay p{
+    margin-top:10px;
+    position: relative;
+    z-index: 100;
+    text-align:end;
+  }
+
+  .reglonoverlay::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent 93%, white );
+    background-size: 100% 20px;
+    z-index: 0;
+  }
+
 .overlay{
 
     padding: 20px;
-    /* background-color: rgba(30, 22, 22, 0.5); */
+    background-color:whitesmoke;
     color: white;
 
     width: 100%;
@@ -190,7 +231,7 @@ h3::after{
   }
 .back button{
     margin-top: 3%;
-    width: 80%;
+    width: 100%;
 }
 
 .auxiliar{
@@ -220,6 +261,15 @@ h3::after{
     transform: translateY(0%);
 
 }
+
+
+.rotar{
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    background-color: dimgrey;
+}
+
 
 
 
@@ -369,12 +419,12 @@ h3::after{
 }
 
 
-footer {
+.footer {
     padding: 30px;
     z-index: 1000;
-    position: sticky;
     bottom: 0;
     width: 100%;
     background-color: black;
     color: whitesmoke;
+    position: relative;
 }
