@@ -30,6 +30,15 @@ header {
 
 /* ----------------------- */
 /* faq section */
+.faq-section {
+    width: 60%;
+}
+
+@media (max-width: 1080px) {
+    .faq-section{
+        width: 90%;
+    }
+}
 .faq-section h2 {
     font-weight: bold;
     font-size: 2rem;

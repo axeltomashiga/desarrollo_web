@@ -31,7 +31,9 @@
 
   header {
     position: fixed;
+    font-family: "Oswald", sans-serif;
     top: 0;
+    text-transform: uppercase;
     width: 90%;
     display: flex;
     justify-content: space-between;
@@ -68,6 +70,7 @@
 .dropdown-item {
     z-index: 1000;
 }
+
 #barra {
     background-color: none;
 }
@@ -84,45 +87,8 @@
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #barra h1{
     position: absolute;
     color: transparent;
     
-}
-
-
-
-.nombre{
-    text-decoration: none;
-    color: white;
-    transition: background-color 0.3s ease;
-    font-size: x-large;
-    margin:0px;
-    }
-
-.nombre:hover {
-    text-decoration: none;
-    color: white;
-
 }

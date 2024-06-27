@@ -13,8 +13,8 @@ body {
     background-color:#2e2e2e;
 }
 
-.titulo{
-    padding-top: 100px;
+.titulo {
+    padding-top: 7rem;
     text-align: center;
     margin-bottom: 40px;
     position: relative;
@@ -59,32 +59,34 @@ body {
 
 
 
-
-
-
-
-
-.encabezado{
+.encabezado {
    padding-top: 10px;
    padding-bottom: 5px;
    color: white;
 }
 
-.encabezado h3{position: relative;
-display: inline-block;}
+.encabezado h3{
+    position: relative;
+    display: inline-block;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    font-size: 2.5rem;
+}
 
 .encabezado h3::after, .encabezado h3::before{
     content: '';
-    position:absolute;
+    position: absolute;
     width: 120px;
     height: 3px;
-    background-color:currentColor;
-    top: 0.6em;
+    background-color: currentColor;
+    top: 0.7em;
     border-radius: 3px;
 }
+
 .encabezado h3::before{
     left: -130px;
 }
+
 .encabezado h3::after{
     right: -130px;
 }
@@ -103,7 +105,6 @@ display: inline-block;}
     margin: 0px;
     text-align: center;
     transition: transform 0.2s;
-
     width: 100%;
 }
 
@@ -128,6 +129,7 @@ display: inline-block;}
 .product-box-image{
     overflow:hidden;
 }
+
  .product-box-image::before{
     transform: translateY(0%);
 }
@@ -192,11 +194,9 @@ display: inline-block;}
   }
 
 .overlay{
-
     padding: 20px;
     background-color:whitesmoke;
     color: white;
-
     width: 100%;
     height: 100%;
 
@@ -210,7 +210,8 @@ display: inline-block;}
     left: 0;
     right: 0;
     align-items: stretch;
-
+    outline: none;
+    box-shadow: none;
 }
 
 
@@ -223,13 +224,13 @@ display: inline-block;}
     position: absolute;
     bottom: 0%;
     height: 100%;
+    text-align: right;
     transform: rotateY(180deg); 
     background-color:white;
-    /* border: 1px solid #cacaca; */
-    border-radius: 5px;
-    
-  }
-.back button{
+    border-radius: 5px;    
+}
+
+.back button {
     margin-top: 3%;
     width: 100%;
 }
@@ -248,8 +249,6 @@ display: inline-block;}
 
 .product-card.show-back  {
     transform: rotateY(180deg);
-
-
 }
 
 
@@ -266,21 +265,17 @@ display: inline-block;}
 .rotar{
     width: 100%;
     border-radius: 10px;
+    padding: 4px;
+    outline: none;
+    border: none;
+    background-color: black;
     color: white;
-    background-color: dimgrey;
 }
-
-
-
-
-
-
 
 .product-details {
     padding: 5px;
     display: flex;
     flex-direction: column;
-
 }
 
 .product-title {
