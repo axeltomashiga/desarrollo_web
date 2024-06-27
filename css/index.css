@@ -36,14 +36,14 @@ body {
 }
 
 .hero-content h2 {
-    animation: slide-in-left 1.2s forwards; /* Aplicación de la animación */
+    animation: slide-in-left 1.2s forwards;
     font-family: 'Poppins';
     font-weight: bold;
     font-size: 3em;
 }
 
 .hero p {
-    animation: slide-in-left 1.5s forwards; /* Aplicación de la animación */
+    animation: slide-in-left 1.5s forwards;
 }
 
 .hero-content .btn {
@@ -54,7 +54,7 @@ body {
     color: #000;
     font-weight: bold;
     font-size: 1.5em;
-    animation: slide-in-left 2s forwards; /* Aplicación de la animación */
+    animation: slide-in-left 2s forwards;
 }
 
 .hero {
@@ -90,6 +90,7 @@ body {
     background-color: black;
     flex-direction:column;
 }
+
 .recuadro {
     display: flex;
     flex-direction: column;
@@ -165,31 +166,32 @@ body {
     flex-direction: column;
     width: 30%;
 }
+
 .suscriptionbox:hover {
     cursor:pointer;
 }
-.bronze{
+
+.bronze {
     background-color: rgb(197, 110, 40);   
 }
 
-.silver{
+.silver {
     background-color: silver;   
 }
 
-.gold{
+.gold {
     background-color: rgba(255, 217, 0, 0.658);   
 }
-
 
 .suscriptionbox:hover {
     background-color:rgb(27, 27, 27); /* Ajusta la opacidad para obtener el nivel de oscurecimiento deseado */
 }
 
-.precioanterior{
+.precioanterior {
     text-decoration: line-through;
 }
 
-.diagonal-line{
+.diagonal-line {
     width: 50px;
     height: 10px;
     background-color: gold;
@@ -208,10 +210,6 @@ body {
         font-size: 20px;
     }
 }
-
-
-
-
 
 .mostrarsubscripciones{
     display: inline;
@@ -233,11 +231,9 @@ body {
     background-color: rgba(0, 0, 0, 0.9);
 }
 
-
-
-
 /* ------------------------------------------------------------------------------- /
 / testimonial */
+
 .testimonial {
     background-color: black;
 }

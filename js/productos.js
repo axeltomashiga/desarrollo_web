@@ -16,7 +16,7 @@ function initializeCarousel(juegos_json) {
                         <div class="product-details">
                             <h4 class="product-title">${juegos_json[i].nombre}</h4>
                             <p class="product-price">${juegos_json[i].precio}</p>
-                            <button class="rotar">Descripcion 📄</button>
+                            <button class="rotar">Descripción 📄</button>
                         </div>
                     </div>
                     <div class="back">
@@ -40,18 +40,7 @@ function initializeCarousel(juegos_json) {
 
 $(document).ready(function() {
 
-    console.log('Hola, mundo!');
-
-  
-
-	
-
-
-    const carousel = $(".owl-carousel");
-
     initializeCarousel(juegos_json);
-
-
 
     $(".owl-carousel").owlCarousel({
         mouseDrag: true,
@@ -75,14 +64,6 @@ $(document).ready(function() {
             }
           }
         });
-
-  
-
-
-
-
-
-
 
         document.querySelectorAll('.rotar').forEach(button => {
             button.addEventListener('click', function() {
