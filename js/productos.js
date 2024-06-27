@@ -10,7 +10,7 @@ function initializeCarousel(juegos_json) {
                     <div class="front">
                         <div class="product-image">
                             <a class="product-box-image" href="plantilla_juego.html?id=${i}" >
-                                <img src="img/${juegos_json[i].imagen}" alt="">
+                                <img src="img/${juegos_json[i].imagen}" alt=${juegos_json[i].nombre}>
                             </a>
                         </div>
                         <div class="product-details">
