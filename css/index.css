@@ -121,6 +121,8 @@ body {
     flex-direction: column;
     width: 90%;
     justify-content: space-around;
+    background-color: transparent;
+    border-radius: 10px;
 }
 
 @media (min-width: 718px) {
@@ -139,6 +141,7 @@ body {
     .recuadro h2 {
         font-size: 1.5rem;
     }
+
 }
 
 @media (min-width: 950px) {
@@ -153,56 +156,89 @@ body {
 .fila_banner {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    background-color: transparent ;
+}
+
+
+#essentialpadre{
+    width: 33.333%;
+    padding: 10px;
+    background-color: grey;
+    border-top-left-radius: 15px; /* Radio de borde en la esquina superior izquierda */
+    border-top-right-radius: 15px;
+}
+#extrapadre{
+    width: 33.333%;
+    padding: 10px;
+    background-color: transparent;
+    border-top-left-radius: 15px; /* Radio de borde en la esquina superior izquierda */
+    border-top-right-radius: 15px;
+}
+#deluxepadre{
+    width: 33.333%;
+    padding: 10px;
+    background-color:transparent;
+    border-top-left-radius: 15px; /* Radio de borde en la esquina superior izquierda */
+    border-top-right-radius: 15px;
+}
+
+
+#essential {
+    background-color: rgb(197, 110, 40);   
+}
+
+#extra {
+    background-color: blue;   
+}
+
+#deluxe {
+    background-color: rgba(255, 217, 0, 0.658);   
+}
+
+
+.detallesuscripcion{
+    background-color: grey;
+    border-bottom-left-radius: 15px; /* Radio de borde en la esquina superior izquierda */
+    border-bottom-right-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
     justify-content: space-around;
-    margin: 5%;
+}
+
+.detalle_sus_izquierda{
+    width: 60%;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.detalle_sus_derecha p{
+    font-size: medium;
 }
 
 
 .suscriptionbox {
-    border: white solid medium;
-    border-radius: 10px;
-    background-color: grey;   
-    display: flex;
-    flex-direction: column;
-    width: 30%;
+    border-radius: 10px;  
 }
-
 .suscriptionbox:hover {
-    cursor:pointer;
-}
-
-.bronze {
-    background-color: rgb(197, 110, 40);   
-}
-
-.silver {
-    background-color: silver;   
-}
-
-.gold {
-    background-color: rgba(255, 217, 0, 0.658);   
-}
-
-.suscriptionbox:hover {
-    background-color:rgb(27, 27, 27); /* Ajusta la opacidad para obtener el nivel de oscurecimiento deseado */
+    cursor: pointer;   
 }
 
 .precioanterior {
     text-decoration: line-through;
 }
 
-.diagonal-line {
-    width: 50px;
-    height: 10px;
-    background-color: gold;
-    transform: rotate(45deg);
-}
+
 
 .timer {
     border: 3px solid #ddd;
     border-radius: 20px;
-    padding: 1%;
-    margin: 0% 15%;
+    width: auto;
+    padding: 5px;
+    margin-left: 5px;
 }
 
 @media (min-width: 576px) {
@@ -210,8 +246,36 @@ body {
         font-size: 20px;
     }
 }
+@media (max-width: 576px) {
+    .detallesuscripcion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2px;
+    }
+    .detalle_sus_izquierda{
+        width: 100%;
+    }
+    .detalle_sus_izquierda p {
+        font-size: small;
+        width: 100%;
+        padding: 2px;
+    }
+    .detalle_sus_derecha p {
+        font-size: x-small;
+        width: 100%;
+        padding: 0px;
+        margin-bottom: 5px;
+        
+    }
+    .timer{
+        font-size: xx-small;
+        padding: 4px;
+        margin-left: 2px;
+    }
 
-.mostrarsubscripciones{
+}
+.mostrarsuscripciones{
     display: inline;
     z-index: 1;
     height: 10%;
@@ -227,7 +291,7 @@ body {
     font-weight:700;
 }
 
-.mostrarsubscripciones:hover{
+.mostrarsuscripciones:hover{
     background-color: rgba(0, 0, 0, 0.9);
 }
 

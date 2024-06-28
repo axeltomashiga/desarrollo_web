@@ -6,7 +6,7 @@ header.append(`
     </div>
 <nav class="row g-0 align-items-center">  
     <a class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block" href="index.html">Inicio</a>
-    <a id="boton_header_subscripciones" class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block" href="index.html#banner">Subscripciones</a>
+    <a id="boton_header_suscripciones" class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block" href="index.html#banner">suscripciones</a>
     <a class="col p-md-1 me-xl-4 boton_navegacion d-none d-xl-block   dropdown-toggle"  role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
     <ul class="dropdown-menu w-25" aria-labelledby="dropdownMenuLink">
         <li><a class="dropdown-item" href="productos.html#action-section">Action</a></li>
@@ -32,7 +32,7 @@ header.append(`
                         <a class="nav-link" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#banner">Subscripciones</a>
+                        <a class="nav-link" href="index.html#banner">suscripciones</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="productos.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
