@@ -95,8 +95,9 @@ body {
     display: flex;
     flex-direction: column;
     width: 90%;
-    background-color: rgba(0, 0, 0, 0.8); ; 
-    border: white solid 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border: white solid 1px;
+    font-family: 'Poppins';
     padding: 20px;
     border-radius: 15px; 
     align-items: center;
@@ -282,21 +283,16 @@ body {
         width: 100%;
     }
     .detalle_sus_izquierda p {
-        font-size: small;
         width: 100%;
-        padding: 2px;
+        padding: 8px 16px;
     }
     .detalle_sus_derecha p {
-        font-size: x-small;
+        font-size: 12px;
         width: 100%;
-        padding: 0px;
-        margin-bottom: 5px;
-        
+        margin-bottom: 5px;        
     }
     .timer{
-        font-size: xx-small;
         padding: 4px;
-        margin-left: 2px;
     }
 
 }
@@ -306,14 +302,14 @@ body {
     height: 10%;
     border-radius: 80px;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
+    padding: 8px 24px;
     margin-top: 10px;
     margin-bottom: 5px;
     color: white;
-    border: solid white;
+    border: solid white 1px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
     font-size: large;
-    font-weight:700;
+    font-weight: 400;
 }
 
 .mostrarsuscripciones:hover{
