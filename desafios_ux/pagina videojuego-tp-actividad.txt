@@ -1,0 +1,61 @@
+Descripcion breve de la empresa: Rito-games es una empresa que se desarrolla en el ambito de video juegos en linea, la cual tiene una fuerte porcion del mercado gracias a sus 4 juegos bien diferenciados, ya que cada uno es de un genero diferente, MMORPG, SHOOTER, GACHAPOM Y MOBA.
+
+Identidad Visual Coherente: La página web debe reflejar la estética y el estilo del juego. Esto incluye el uso de colores, tipografía y elementos visuales que coincidan con la temática del juego para crear una experiencia inmersiva desde el primer vistazo.
+
+Facilidad de Navegación: Los usuarios deben poder encontrar fácilmente la información que están buscando, ya sea detalles sobre el juego, actualizaciones, noticias, soporte técnico, etc. Una estructura de navegación clara y lógica es esencial para esto.
+
+Página de Inicio Atractiva: La página de inicio es la primera impresión que los visitantes tienen del juego, por lo que debe ser visualmente atractiva y ofrecer una descripción clara del juego, captando la atención del usuario de inmediato.
+
+Contenido Multimedia Atractivo: Las imágenes y videos del juego son fundamentales para captar el interés de los usuarios. Deben ser de alta calidad y mostrar los aspectos más emocionantes y atractivos del juego para impulsar las conversiones.
+
+Información Detallada del Juego: Los usuarios necesitan información detallada sobre el juego, como la historia, los personajes, la jugabilidad, los requisitos del sistema, etc. Esta información debe presentarse de manera clara y concisa, evitando la sobrecarga de información.
+
+Sección de Comunidad y Social: Los videojuegos suelen tener una comunidad de jugadores activa. La página web debe incluir una sección dedicada a la comunidad donde los usuarios puedan interactuar entre sí, compartir contenido generado por los usuarios, acceder a foros, guías, etc.
+
+Soporte Técnico y FAQs: Es importante incluir una sección de soporte técnico donde los usuarios puedan encontrar respuestas a preguntas frecuentes, solucionar problemas técnicos y contactar al equipo de soporte si es necesario.
+
+Call to Action (Llamadas a la Acción, nombre provisorio): Ya sea para comprar el juego, suscribirse a actualizaciones, descargar contenido adicional, las llamadas a la acción deben ser claras y prominentes en la página web para guiar a los usuarios hacia la siguiente acción deseada.
+
+Adaptabilidad y Responsive Design: La página web debe ser completamente funcional y visualmente atractiva en diferentes dispositivos y tamaños de pantalla, incluyendo computadoras de escritorio, tablets y teléfonos móviles.
+
+
+--- segun ux
+Enthusiastic Gamer - Juan:
+
+Juan es un apasionado de los videojuegos desde hace años. Pasa muchas horas jugando y siempre está buscando nuevos juegos emocionantes para probar.
+Edad: 25 años
+Motivaciones: Busca información detallada sobre la jugabilidad, historia y características del juego. Le gusta ver trailers y gameplay para evaluar si el juego coincide con sus intereses.
+Necesidades en la página web: Juan espera encontrar una sección de noticias actualizada regularmente, trailers de alta calidad, capturas de pantalla y detalles sobre la mecánica del juego y los personajes. También valora una comunidad activa donde pueda discutir el juego con otros fanáticos.
+Casual Gamer - María:
+
+María disfruta de los videojuegos. Juega ocasionalmente para relajarse después del trabajo o los fines de semana.
+Edad: 30 años
+Motivaciones: Quiere encontrar juegos que sean fáciles de entender y jugar en poco tiempo. Valora los juegos con gráficos impresionantes y que sea de jugabilidad frenetica.
+Necesidades en la página web: María busca una página de inicio atractiva que le muestre de inmediato qué tipo de juego es y por qué debería probarlo. También apreciará una sección de preguntas frecuentes y soporte técnico en caso de tener algún problema.
+Collector Gamer - Carlos:
+
+Carlos es un coleccionista de videojuegos. Le encanta explorar diferentes géneros y agregar nuevos títulos a su colección.
+Edad: 35 años
+Motivaciones: Busca juegos únicos y ediciones especiales que puedan convertirse en piezas de colección. Le interesan los extras exclusivos y las colaboraciones con artistas.
+Necesidades en la página web: Carlos necesita acceso fácil a la tienda en línea donde pueda comprar ediciones especiales, DLCs, merchandising y otros productos relacionados con el juego. Valora las descripciones detalladas de los productos y la información sobre la disponibilidad de los artículos de colección.
+
+----segun marketer
+Prospecto Curioso - Ana:
+
+Ana tiene curiosidad por el juego pero aún no está segura si quiere comprarlo. Está buscando información para tomar una decisión informada.
+Edad: 20 años
+Motivaciones: Quiere conocer los aspectos clave del juego, como la jugabilidad, la historia y los gráficos. También está interesada en las opiniones de otros jugadores y las reseñas de la prensa especializada.
+Necesidades en la página web: Ana busca una página de inicio que le brinde una visión general del juego con capturas de pantalla llamativas y un trailer emocionante. Valora las reseñas de usuarios y la cobertura de medios para obtener una idea de la calidad del juego.
+Cliente Potencial - Luis:
+
+Luis ha oído hablar del juego y está considerando comprarlo. Está buscando detalles específicos y ofertas especiales para convencerse de hacer la compra.
+Edad: 27 años
+Motivaciones: Quiere saber más sobre el contenido del juego, como los modos de juego, la duración de la campaña, los personajes jugables y las características únicas. Además, está interesado en cualquier oferta especial, como descuentos o bonificaciones de preorden.
+Necesidades en la página web: Luis espera encontrar una sección detallada de "Características" que describa todas las facetas del juego. También está atento a cualquier incentivo de compra, como DLCs gratuitos o contenido exclusivo para preordenes.
+Cliente Leal - Marta:
+
+Marta es una fan leal del desarrollador del juego y está emocionada por su próximo lanzamiento. Ya está decidida a comprar el juego y está buscando contenido adicional y la posibilidad de interactuar con la comunidad.
+Edad: 35 años
+Motivaciones: Quiere profundizar en el universo del juego, explorar contenido adicional como expansiones o DLCs, y conectarse con otros fans a través de la comunidad en línea.
+Necesidades en la página web: Marta está interesada en la sección de "Noticias" para mantenerse al día con las actualizaciones del juego y en la sección de "Comunidad" para interactuar con otros jugadores. También valora acceso temprano a contenido exclusivo o betas cerradas como recompensa por su lealtad.
+Estas user personas representan diferentes etapas del ciclo de compra y tienen necesidades y motivaciones únicas. Al comprender estas características, los especialistas en marketing pueden adaptar sus estrategias para llegar a cada grupo de manera efectiva a través de la página web del juego.
