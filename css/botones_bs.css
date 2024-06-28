@@ -1,7 +1,6 @@
 .btn-primary {
     background-color: #5b5ff3;
     border-radius: 10px;
-    padding: 2% 4%;
     color: whitesmoke;
 
 }
@@ -9,7 +8,6 @@
 .btn-primary:hover {
     background-color: #0f31e6;
     border-radius: 10px;
-    padding: 2% 4%;
     color: whitesmoke;
 }
 
@@ -17,13 +15,11 @@
 .btn-secondary{
     background-color: #ff2c2c;
     border-radius: 10px;
-    padding: 2% 4%;
     color: whitesmoke;
 }
 
 .btn-secondary:hover {
     background-color: #c20000;
     border-radius: 10px;
-    padding: 2% 4%;
     color: whitesmoke;
 }
