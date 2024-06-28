@@ -14,7 +14,7 @@ function initializeCarousel(juegos_json) {
                             </a>
                         </div>
                         <div class="product-details">
-                            <h4 class="product-title">${juegos_json[i].nombre}</h4>
+                            <h3 class="product-title">${juegos_json[i].nombre}</h3>
                             <p class="product-price">${juegos_json[i].precio}</p>
                             <button class="rotar">Descripción 📄</button>
                         </div>

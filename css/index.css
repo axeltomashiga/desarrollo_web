@@ -35,7 +35,7 @@ body {
     }
 }
 
-.hero-content h2 {
+.hero-content h1 {
     animation: slide-in-left 1.2s forwards;
     font-family: 'Poppins';
     font-weight: bold;

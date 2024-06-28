@@ -33,12 +33,12 @@ header {
     width: 60%;
 }
 
-@media (max-width: 1080px) {
+@media (min-width: 1080px) {
     .faq-section{
-        width: 90%;
+        width: 70%;
     }
 }
-.faq-section h2 {
+.faq-section h1 {
     font-weight: bold;
     font-size: 2rem;
 }
