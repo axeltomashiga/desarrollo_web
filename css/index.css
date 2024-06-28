@@ -234,19 +234,44 @@ body {
 
 
 .timer {
-    border: 3px solid #ddd;
-    border-radius: 20px;
     width: auto;
-    padding: 5px;
-    margin-left: 5px;
+    margin-left: 2px;
 }
 
-@media (min-width: 576px) {
-    .timer{
-        font-size: 20px;
-    }
-}
+
 @media (max-width: 576px) {
+
+    .izquierda{
+        width: 100%;
+    }
+    .derecha{
+        width: 100%;
+    }
+
+
+    
+    #essentialpadre{
+        padding: 4px;
+    }
+    #extrapadre{
+        padding: 4px;
+    }
+    #deluxepadre{
+        padding: 4px;
+    }
+
+    #essential {
+        font-size: medium;
+    }
+    
+    #extra {
+        font-size: medium;
+    }
+    
+    #deluxe {
+        font-size: medium;
+    }
+
     .detallesuscripcion{
         display: flex;
         flex-direction: column;
