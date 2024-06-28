@@ -85,9 +85,10 @@ window.addEventListener('load', function() {
 
 
   document.getElementById('deluxe').addEventListener('click', function() {
-    document.getElementById('deluxepadre').style.backgroundColor = 'grey';
+    document.getElementById('deluxepadre').style.backgroundColor = '#ffd900a8';
     document.getElementById('extrapadre').style.backgroundColor = 'transparent';
     document.getElementById('essentialpadre').style.backgroundColor = 'transparent';
+    $('.detallesuscripcion').css('backgroundColor', '#ffd900a8');
 
     const detalles = $('.detalle_sus_derecha');
     detalles.empty();
@@ -108,9 +109,10 @@ window.addEventListener('load', function() {
 });
 
 document.getElementById('extra').addEventListener('click', function() {
-    document.getElementById('extrapadre').style.backgroundColor = 'grey';
+    document.getElementById('extrapadre').style.backgroundColor = '#0000ffa8';
     document.getElementById('deluxepadre').style.backgroundColor = 'transparent';
     document.getElementById('essentialpadre').style.backgroundColor = 'transparent';
+    $('.detallesuscripcion').css('backgroundColor', '#0000ffa8');
 
     const detalles = $('.detalle_sus_derecha');
     detalles.empty();
@@ -128,9 +130,10 @@ document.getElementById('extra').addEventListener('click', function() {
 });
 
 document.getElementById('essential').addEventListener('click', function() {
-  document.getElementById('essentialpadre').style.backgroundColor = 'grey';
+  document.getElementById('essentialpadre').style.backgroundColor = '#c56e28a8';
   document.getElementById('deluxepadre').style.backgroundColor = 'transparent';
   document.getElementById('extrapadre').style.backgroundColor = 'transparent';
+  $('.detallesuscripcion').css('backgroundColor', '#c56e28a8');
 
   const detalles = $('.detalle_sus_derecha');
   detalles.empty();

@@ -159,17 +159,17 @@ body {
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    background-color: transparent ;
+    background-color: transparent;
 }
-
 
 #essentialpadre{
     width: 33.333%;
     padding: 10px;
-    background-color: grey;
+    background-color: #c56e28a8;
     border-top-left-radius: 15px; /* Radio de borde en la esquina superior izquierda */
     border-top-right-radius: 15px;
 }
+
 #extrapadre{
     width: 33.333%;
     padding: 10px;
@@ -177,6 +177,7 @@ body {
     border-top-left-radius: 15px; /* Radio de borde en la esquina superior izquierda */
     border-top-right-radius: 15px;
 }
+
 #deluxepadre{
     width: 33.333%;
     padding: 10px;
@@ -185,22 +186,20 @@ body {
     border-top-right-radius: 15px;
 }
 
-
 #essential {
-    background-color: rgb(197, 110, 40);   
+    background-color: #c56e28a8;   
 }
 
 #extra {
-    background-color: blue;   
+    background-color: #0000ffa8;   
 }
 
 #deluxe {
-    background-color: rgba(255, 217, 0, 0.658);   
+    background-color: #ffd900a8;   
 }
 
-
 .detallesuscripcion{
-    background-color: grey;
+    background-color: #c56e28a8;
     border-bottom-left-radius: 15px; /* Radio de borde en la esquina superior izquierda */
     border-bottom-right-radius: 15px;
     padding: 20px;
@@ -216,6 +215,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
 }
+
 .detalle_sus_derecha p{
     font-size: medium;
 }
@@ -224,6 +224,7 @@ body {
 .suscriptionbox {
     border-radius: 10px;  
 }
+
 .suscriptionbox:hover {
     cursor: pointer;   
 }
@@ -232,13 +233,10 @@ body {
     text-decoration: line-through;
 }
 
-
-
 .timer {
     width: auto;
     margin-left: 2px;
 }
-
 
 @media (max-width: 576px) {
 
@@ -248,8 +246,6 @@ body {
     .derecha{
         width: 100%;
     }
-
-
     
     #essentialpadre{
         padding: 4px;
@@ -296,6 +292,40 @@ body {
     }
 
 }
+
+
+@media (max-width: 1000px) {
+    .izquierda{
+        width: 100%;
+    }
+    .derecha{
+        width: 100%;
+    }
+    
+    #essentialpadre{
+        padding: 6px;
+    }
+    #extrapadre{
+        padding: 6px;
+    }
+    #deluxepadre{
+        padding: 6px;
+    }
+
+    #essential {
+        font-size: large;
+    }
+    
+    #extra {
+        font-size: large;
+    }
+    
+    #deluxe {
+        font-size: large;
+    }
+
+}
+
 .mostrarsuscripciones{
     display: inline;
     z-index: 1;
