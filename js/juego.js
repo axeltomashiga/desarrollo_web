@@ -7,7 +7,6 @@ var f2=juegos_json[gameId].foto2
 var f3=juegos_json[gameId].foto3
 var imagen=juegos_json[gameId].imagen
 var nombre=juegos_json[gameId].nombre
-console.log(nombre)
 
 var foto1 = $(`#foto1`);
 foto1.append(`

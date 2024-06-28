@@ -25,7 +25,7 @@ $(document).ready(function() {
     function crearCards(noticias) {
         noticias.forEach(function(noticia) {
             let card = `
-                <div class="noticias-card">
+                <article class="noticias-card">
                     <div class="noticias-img-container">
                         <img src="${noticia.img}" alt="${noticia.title}">
                     </div>
@@ -36,7 +36,7 @@ $(document).ready(function() {
                             <span class="see-more">Ver más</span>   
                         </a>
                     </div>
-                </div>
+                </article>
             `;
             $('#noticias-container').append(card);
         });
