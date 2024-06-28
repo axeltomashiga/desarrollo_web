@@ -39,13 +39,10 @@
                     </div>
                     <div class="carousel-inner">
                         <div id="foto1" class="carousel-item active">
-                
                         </div>
                         <div id="foto2" class="carousel-item">
-                            
                         </div>
                         <div id="foto3" class="carousel-item">
-                            
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselGame" data-bs-slide="prev">
@@ -85,7 +82,6 @@
                           </p>
                           <div class="collapse" id="collapseExample">
                             <div id="descripcion_larga" class="card card-body">
-                                
                                 <!-- completa con js -->
                             </div>
                           </div>
@@ -93,9 +89,7 @@
                 </div>
             </section>
             <aside id="aside-game" class="col-12 col-lg-4 text-center">
-                
                 <p id="precio">
-                    
                 </p>
                 <button id="buy-button" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#buyGameModal">
                     Comprar
@@ -117,61 +111,60 @@
     <!-- The Modal -->
     <div class="modal fade" id="buyGameModal" tabindex="-1" aria-labelledby="buyGameModalLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="buyGameModalLabel">New message to</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="buyGameModalLabel">New message to</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form id="buyGameForm" class="needs-validation" novalidate>
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="userName" class="col-form-label">Nombre</label>
+                            <input type="text" class="form-control" id="userName" required>
+                            <div class="invalid-feedback">Por favor, ingresa tu nombre.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="lastName" class="col-form-label">Apellido</label>
+                            <input type="text" class="form-control" id="lastName" required>
+                            <div class="invalid-feedback">Por favor, ingresa tu apellido.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Correo electrónico</label>
+                            <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico" required>
+                            <div class="invalid-feedback">Por favor, ingresa un correo válido.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="address" class="col-form-label">Direccion</label>
+                            <input type="text" class="form-control" id="address" required>
+                            <div class="invalid-feedback">Por favor, ingresa tu dirección.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="numberCard" class="col-form-label">Numero de tarjeta</label>
+                            <input type="number" class="form-control" id="numberCard" required>
+                            <div class="invalid-feedback">Por favor, tu numero de tarjeta.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="securityNumberCard" class="col-form-label">Numero de seguridad tarjeta</label>
+                            <input type="number" class="form-control" id="securityNumberCard" required>
+                            <div class="invalid-feedback">Por favor, ingresa tu clave de tarjeta.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="payment-method" class="col-form-label">Payment Method:</label>
+                            <select class="form-select" id="payment-method" required>
+                                <option>Credit Card</option>
+                                <option>PayPal</option>
+                                <option>Bank Transfer</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div id="modalPrice">
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        <button type="submit" class="btn btn-primary">Comprar</button>
+                    </div>
+                </form>
             </div>
-            <form id="buyGameForm" class="needs-validation" novalidate>
-                <div class="modal-body">
-                    <div class="mb-3">
-                        <label for="userName" class="col-form-label">Nombre</label>
-                        <input type="text" class="form-control" id="userName" required>
-                        <div class="invalid-feedback">Por favor, ingresa tu nombre.</div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="lastName" class="col-form-label">Apellido</label>
-                        <input type="text" class="form-control" id="lastName" required>
-                        <div class="invalid-feedback">Por favor, ingresa tu apellido.</div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Correo electrónico</label>
-                        <input type="email" class="form-control" id="email" placeholder="Tu correo electrónico" required>
-                        <div class="invalid-feedback">Por favor, ingresa un correo válido.</div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="address" class="col-form-label">Direccion</label>
-                        <input type="text" class="form-control" id="address" required>
-                        <div class="invalid-feedback">Por favor, ingresa tu dirección.</div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="numberCard" class="col-form-label">Numero de tarjeta</label>
-                        <input type="number" class="form-control" id="numberCard" required>
-                        <div class="invalid-feedback">Por favor, tu numero de tarjeta.</div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="securityNumberCard" class="col-form-label">Numero de seguridad tarjeta</label>
-                        <input type="number" class="form-control" id="securityNumberCard" required>
-                        <div class="invalid-feedback">Por favor, ingresa tu clave de tarjeta.</div>
-                    </div>
-                    <div class="mb-3">
-                        <label for="payment-method" class="col-form-label">Payment Method:</label>
-                        <select class="form-select" id="payment-method" required>
-                            <option>Credit Card</option>
-                            <option>PayPal</option>
-                            <option>Bank Transfer</option>
-                        </select>
-                    </div>
-                </div>
-                <div id="modalPrice">
-
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    <button type="submit" class="btn btn-primary">Comprar</button>
-                </div>
-            </form>
-        </div>
         </div>
     </div>
 
