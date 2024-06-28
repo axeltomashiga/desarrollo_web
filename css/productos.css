@@ -24,9 +24,10 @@ body {
     color: white;
 }
 
-.titulo h2{
+.titulo h1{
     font-size: 3em;
     font-weight: bold;
+    padding: 0 4%;
 }
 
 .titulo input[type="text"] {
@@ -65,7 +66,7 @@ body {
    color: white;
 }
 
-.encabezado h3{
+.encabezado h2{
     position: relative;
     display: inline-block;
     font-family: 'Oswald';
@@ -73,7 +74,7 @@ body {
     font-size: 2.5rem;
 }
 
-.encabezado h3::after, .encabezado h3::before{
+.encabezado h2::after, .encabezado h2::before{
     content: '';
     position: absolute;
     width: 120px;
@@ -83,11 +84,11 @@ body {
     border-radius: 3px;
 }
 
-.encabezado h3::before{
+.encabezado h2::before{
     left: -130px;
 }
 
-.encabezado h3::after{
+.encabezado h2::after{
     right: -130px;
 }
 
