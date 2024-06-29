@@ -202,5 +202,112 @@ var juegos_json=[
         "foto1": "silenthill_f1.jpg",
         "foto2": "silenthill_f2.jpg",
         "foto3": "silenthill_f3.jpg"
+    },
+    {
+        "categoria": "deportes",
+        "nombre": "Mario Golf SR ",
+        "descripcion": "El plomero mas famoso del mundo se renueva como golfista en esta Nueva edicion.",
+        "descripcion_media": "Mario Golf super Rush ofrece una nueva experencia para jugar golf adjuntado elementos RPG.",
+        "descripcion_larga": "El juego incluye una variedad de modos de juego, desde partidos rápidos hasta un modo historia, usa a Mario y mas de 25 personajes diferentes, cada uno con habilidades unicas y exoticas .",
+        "imagen": "MarioGolfSR.png",
+        "precio": "$39.99",
+        "foto1": "MarioGolfSR_f1.jpg",
+        "foto2": "MarioGolfSR_f2.jpg",
+        "foto3": "MarioGolfSR_f3.jpg"
+    },
+
+   {
+        "categoria": "deportes",
+        "nombre": "AO Tennis 2 ",
+        "descripcion": "AO Tennis 2 es un simulador de tenis con opciones de personalización y realismo en la jugabilidad.",
+        "descripcion_media": "AO Tennis 2 es un juego de simulación de tenis que ofrece personalización avanzada de jugadores y torneos, con una jugabilidad realista centrada en el Abierto de Australia.",
+        "descripcion_larga": "AO Tennis 2, desarrollado por Big Ant Studios, permite a los jugadores experimentar el tenis profesional con personalización detallada y física realista. Incluye el Abierto de Australia y un modo carrera que simula la vida de un tenista, integrando tanto el juego competitivo como aspectos de gestión fuera de la cancha.",
+        "imagen": "AO2.png",
+        "precio": "$19.99",
+        "foto1": "AO2.jpg",
+        "foto2": "AO2_f2.jpg",
+        "foto3": "AO2_f3.jpg"
+    },
+
+   {
+        "categoria": "horror",
+        "nombre": "Amnesia",
+        "descripcion": "Amnesia es un juego de horror en primera persona centrado en la exploración y resolución de puzles.",
+        "descripcion_media": "Amnesia es un juego de horror en primera persona donde los jugadores exploran ambientes oscuros y resuelven puzles, con énfasis en la atmósfera y el suspense.",
+        "descripcion_larga": "Amnesia es un juego de horror psicológico en primera persona, famoso por su atmósfera envolvente y narrativa intensa. Los jugadores deben explorar lugares oscuros y resolver puzles, evitando enemigos y gestionando la cordura del protagonista. El enfoque está en la tensión y el miedo, ofreciendo una experiencia inmersiva sin combates directos.",
+        "imagen": "Amnesia.png",
+        "precio": "$4.99",
+        "foto1": "amnesia_f1.jpg",
+        "foto2": "amnesia_f2.jpg",
+        "foto3": "amnesia_f3.jpg"
+    },
+
+   {
+        "categoria": "horror",
+        "nombre": "The Evil Within 2",
+        "descripcion": "The Evil Within 2 es un juego de horror y supervivencia en tercera persona con un enfoque en la exploración y el suspense.",
+        "descripcion_media": "The Evil Within 2 combina horror y supervivencia en tercera persona, permitiendo a los jugadores explorar un mundo abierto lleno de horrores mientras enfrentan desafíos y gestionan recursos.",
+        "descripcion_larga": "The Evil Within 2 es un juego de horror y supervivencia en tercera persona, donde los jugadores exploran un entorno abierto, enfrentando enemigos aterradores y resolviendo puzles. La narrativa se centra en la búsqueda personal del protagonista, ofreciendo una experiencia inmersiva con un enfoque en la gestión de recursos y la exploración estratégica.",
+        "imagen": "TEW2.png",
+        "precio": "$39.99",
+        "foto1": "TEW2_f1.jpg",
+        "foto2": "TEW2_f2.jpg",
+        "foto3": "TEW2_f3.jpg"
+    },
+
+   {
+        "categoria": "horror",
+        "nombre": "The Evil Within",
+        "descripcion": "The Evil Within es un juego de horror en tercera persona centrado en el suspense y la supervivencia..",
+        "descripcion_media": "The Evil Within es un juego de horror y supervivencia en tercera persona donde los jugadores enfrentan criaturas espeluznantes en un mundo retorcido, con énfasis en la atmósfera y la narrativa.",
+        "descripcion_larga": "The Evil Within es un juego de horror y supervivencia en tercera persona, desarrollado por Shinji Mikami. Los jugadores deben navegar un mundo distorsionado lleno de horrores, enfrentando criaturas grotescas y resolviendo puzles. La jugabilidad se centra en el manejo de recursos y la estrategia, ofreciendo una experiencia intensa y llena de suspense.",
+        "imagen": "TEW.png",
+        "precio": "$19.99",
+        "foto1": "TEW_f1.jpg",
+        "foto2": "TEW_f2.jpg",
+        "foto3": "TEW_f3.jpg"
+    },
+
+   {
+        "categoria": "horror",
+        "nombre": "FNAF 4",
+        "descripcion": "FNAF 4 es un juego de horror en el que debes sobrevivir a animatrónicos en una casa durante la noche.",
+        "descripcion_media": "FNAF 4 es un juego de horror en el que los jugadores deben sobrevivir a la noche en una casa, vigilando puertas y armarios para evitar ataques de animatrónicos aterradores.",
+        "descripcion_larga": "FNAF 4 es un juego de horror en primera persona donde los jugadores se enfrentan a animatrónicos en una casa, utilizando el sonido y la luz para defenderse. La tensión se construye a través de la atmósfera oscura y el uso estratégico de recursos para sobrevivir hasta el amanecer.",
+        "imagen": "FNAF4.png",
+        "precio": "$4.99",
+        "foto1": "FNAF4_f1.jpg",
+        "foto2": "FNAF4_f2.jpg",
+        "foto3": "FNAF4_f3.jpg"
+    },
+
+   {
+        "categoria": "horror",
+        "nombre": "Outlast",
+        "descripcion": "Outlast es un juego de horror en primera persona donde exploras un manicomio abandonado.",
+        "descripcion_media": "Outlast es un juego de horror en primera persona que te lleva a explorar un manicomio, usando solo una cámara para navegar y ocultarte de los peligros que acechan.",
+        "descripcion_larga": "Outlast es un juego de horror en primera persona ambientado en un manicomio abandonado. Los jugadores asumen el papel de un periodista investigativo, utilizando una cámara con visión nocturna para explorar y sobrevivir. Sin armas, el enfoque está en el sigilo y la evasión de enemigos aterradores, creando una experiencia intensa y envolvente.",
+        "imagen": "outlast.png",
+        "precio": "$9.99",
+        "foto1": "outlast_f1.jpg",
+        "foto2": "outlast_f2.jpg",
+        "foto3": "outlast_f3.jpg"
+    },
+
+
+
+   {
+        "categoria": "horror",
+        "nombre": "Until Dawn",
+        "descripcion": "Until Dawn es un juego de horror interactivo donde tus decisiones afectan la historia.",
+        "descripcion_media": "Until Dawn es un juego de horror interactivo en el que las decisiones de los jugadores determinan el destino de un grupo de amigos en una cabaña aislada.",
+        "descripcion_larga": "Until Dawn es un juego de horror interactivo que sigue a un grupo de amigos en una cabaña montañosa, donde tus decisiones afectan la narrativa y los destinos de los personajes. Con múltiples finales posibles, el juego se centra en el suspense y la exploración de temas de supervivencia y miedo psicológico.",
+        "imagen": "UN.png",
+        "precio": "$39.99",
+        "foto1": "UN_f1.jpg",
+        "foto2": "UN_f2.jpg",
+        "foto3": "UN_f3.jpg"
     }
+
+
 ]
